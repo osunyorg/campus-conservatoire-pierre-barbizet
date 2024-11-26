@@ -1,0 +1,44 @@
+---
+title: Menu principal
+items:
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
+  file: content/fr/posts/_index.html
+- title: Agenda
+  target: "/agenda/"
+  kind: page
+  children: []
+  file: content/fr/events/_index.html
+- title: Projets
+  target: "/projets/"
+  kind: page
+  children: []
+  file: content/fr/projects/_index.html
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  children: []
+  file: content/fr/persons/_index.html
+- title: Organisations
+  target: "/organisations/"
+  kind: page
+  children: []
+  file: content/fr/organizations/_index.html
+- title: Diplômes
+  target: "/diplomes/"
+  kind: page
+  children: []
+  file: content/fr/diplomas/_index.html
+- title: Formations
+  target: "/formations/"
+  kind: page
+  children: []
+  file: content/fr/programs/_index.html
+- title: Campus
+  target: "/campus/"
+  kind: page
+  children: []
+  file: content/fr/locations/_index.html
+
