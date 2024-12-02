@@ -17,6 +17,7 @@ fr:
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
     programs: /formations/:slug/
+    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
