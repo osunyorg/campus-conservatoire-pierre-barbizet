@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   Accueil
 url: "/"
+slug: ""
 date: 2024-11-26T11:56:19+01:00
 lastmod: 2024-11-26T16:53:02+01:00
 meta:
   hugo:
     permalink: "/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-11-26T11:56:19+01:00
@@ -74,9 +75,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/equipe/"
+        permalink: "/equipe/"
+        path: "/persons"
         slug: "equipe"
-        file: "persons/_index.html"
+        file: "content/fr/persons/_index.html"
       options:
         image: true
         main_summary: true
@@ -84,22 +86,23 @@ contents:
 
       layout: cards
       pages:
-        - path: "/equipe/equipe-editoriale/"
+        - permalink: "/equipe/equipe-editoriale/"
+          path: "/authors"
           slug: "equipe-editoriale"
-          file: "authors/_index.html"
-          external: false
-        - path: "/equipe/equipe-administrative/"
+          file: "content/fr/authors/_index.html"
+        - permalink: "/equipe/equipe-administrative/"
+          path: "/administrators"
           slug: "equipe-administrative"
-          file: "administrators/_index.html"
-          external: false
-        - path: "/equipe/equipe-de-recherche/"
+          file: "content/fr/administrators/_index.html"
+        - permalink: "/equipe/equipe-de-recherche/"
+          path: "/researchers"
           slug: "equipe-de-recherche"
-          file: "researchers/_index.html"
-          external: false
-        - path: "/equipe/equipe-pedagogique/"
+          file: "content/fr/researchers/_index.html"
+        - permalink: "/equipe/equipe-pedagogique/"
+          path: "/teachers"
           slug: "equipe-pedagogique"
-          file: "teachers/_index.html"
-          external: false
+          file: "content/fr/teachers/_index.html"
+
 
 
 
