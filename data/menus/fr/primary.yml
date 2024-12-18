@@ -57,4 +57,9 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
+- title: L'enseignement
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
 
