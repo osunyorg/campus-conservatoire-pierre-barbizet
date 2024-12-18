@@ -39,7 +39,7 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Inscription
+- title: Inscriptions
   target: ''
   kind: blank
   new_tab: false
