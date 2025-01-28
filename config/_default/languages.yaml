@@ -18,6 +18,7 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
+    programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
@@ -33,6 +34,7 @@ fr:
     pages_category: pages_categories
     persons_category: persons_categories
     posts_category: posts_categories
+    programs_category: programs_categories
     projects_category: projects_categories
     researcher: researchers
     teacher: teachers
