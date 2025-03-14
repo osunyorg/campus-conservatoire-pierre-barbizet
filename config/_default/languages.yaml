@@ -25,7 +25,6 @@ fr:
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
-    teachers: /equipe/:slug/programs/
   taxonomies:
     administrator: administrators
     author: authors
