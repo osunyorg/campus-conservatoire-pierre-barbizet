@@ -41,6 +41,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Théâtre
+      target: "/formations/categories/theatre/"
+      kind: url
+      new_tab: false
+      children: []
     path: "/pages/lenseignement/les-disciplines"
     file: content/fr/pages/lenseignement/les-disciplines/_index.html
   - title: Les parcours
