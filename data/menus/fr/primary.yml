@@ -39,8 +39,57 @@ items:
       children: []
       path: "/pages/lenseignement/les-parcours/professionnalisation"
       file: content/fr/pages/lenseignement/les-parcours/professionnalisation/_index.html
+    - title: Parcours personnalisés
+      target: "/lenseignement/les-parcours/parcours-personnalises/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/parcours-personnalises"
+      file: content/fr/pages/lenseignement/les-parcours/parcours-personnalises/_index.html
+    - title: Parcours adultes
+      target: "/lenseignement/les-parcours/parcours-adultes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/parcours-adultes"
+      file: content/fr/pages/lenseignement/les-parcours/parcours-adultes/_index.html
+    - title: Préparations aux concours d'entrée aux écoles supérieures
+      target: "/lenseignement/les-parcours/preparations-aux-concours-dentree-aux-ecoles-superieures/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/preparations-aux-concours-dentree-aux-ecoles-superieures"
+      file: content/fr/pages/lenseignement/les-parcours/preparations-aux-concours-dentree-aux-ecoles-superieures/_index.html
+    - title: Classes à horaires aménagées
+      target: "/lenseignement/les-parcours/classes-a-horaires-amenagees/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/classes-a-horaires-amenagees"
+      file: content/fr/pages/lenseignement/les-parcours/classes-a-horaires-amenagees/_index.html
+    - title: Bac S2TMD
+      target: "/lenseignement/les-parcours/bac-s2tmd/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/bac-s2tmd"
+      file: content/fr/pages/lenseignement/les-parcours/bac-s2tmd/_index.html
     path: "/pages/lenseignement/les-parcours"
     file: content/fr/pages/lenseignement/les-parcours/_index.html
+  - title: Les ressources
+    target: "/lenseignement/les-ressources/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Médiathèque
+      target: "/lenseignement/les-ressources/mediatheque/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-ressources/mediatheque"
+      file: content/fr/pages/lenseignement/les-ressources/mediatheque/_index.html
+    path: "/pages/lenseignement/les-ressources"
+    file: content/fr/pages/lenseignement/les-ressources/_index.html
   - title: Les ressources
     target: "/lenseignement/les-ressources/"
     kind: page
