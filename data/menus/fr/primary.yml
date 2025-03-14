@@ -10,7 +10,12 @@ items:
     target: "/lenseignement/les-disciplines/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Instruments
+      target: "/formations/categories/instruments/"
+      kind: url
+      new_tab: false
+      children: []
     path: "/pages/lenseignement/les-disciplines"
     file: content/fr/pages/lenseignement/les-disciplines/_index.html
   - title: Les parcours
@@ -232,9 +237,4 @@ items:
   children: []
   path: "/programs/clarinette"
   file: content/fr/programs/clarinette/_index.html
-- title: Instruments
-  target: "/formations/categories/instruments/"
-  kind: url
-  new_tab: false
-  children: []
 
