@@ -7,8 +7,8 @@ items:
   new_tab: false
   children:
   - title: Les disciplines
-    target: "/lenseignement/les-disciplines/"
-    kind: page
+    target: "/lenseignement/formations/categories/disciplines/"
+    kind: url
     new_tab: false
     children:
     - title: Instruments
