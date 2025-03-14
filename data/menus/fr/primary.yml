@@ -88,6 +88,13 @@ items:
       children: []
       path: "/pages/lenseignement/les-ressources/mediatheque"
       file: content/fr/pages/lenseignement/les-ressources/mediatheque/_index.html
+    - title: Prêt d'instruments
+      target: "/lenseignement/les-ressources/pret-dinstruments/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-ressources/pret-dinstruments"
+      file: content/fr/pages/lenseignement/les-ressources/pret-dinstruments/_index.html
     path: "/pages/lenseignement/les-ressources"
     file: content/fr/pages/lenseignement/les-ressources/_index.html
   - title: Les ressources
@@ -99,6 +106,118 @@ items:
     file: content/fr/pages/lenseignement/les-ressources/_index.html
   path: "/pages/lenseignement"
   file: content/fr/pages/lenseignement/_index.html
+- title: Le Conservatoire
+  target: "/le-conservatoire/"
+  kind: page
+  new_tab: false
+  children:
+  - title: L'établissement
+    target: "/le-conservatoire/letablissement/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Histoire
+      target: "/le-conservatoire/letablissement/histoire/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/histoire"
+      file: content/fr/pages/le-conservatoire/letablissement/histoire/_index.html
+    - title: Les lieux
+      target: "/le-conservatoire/letablissement/les-lieux/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/les-lieux"
+      file: content/fr/pages/le-conservatoire/letablissement/les-lieux/_index.html
+    - title: Campus art Méditerranée
+      target: "/le-conservatoire/letablissement/campus-art-mediterranee/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/campus-art-mediterranee"
+      file: content/fr/pages/le-conservatoire/letablissement/campus-art-mediterranee/_index.html
+    - title: Équipe enseignante
+      target: "/le-conservatoire/letablissement/equipe-enseignante/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/equipe-enseignante"
+      file: content/fr/pages/le-conservatoire/letablissement/equipe-enseignante/_index.html
+    - title: Équipe administrative
+      target: "/le-conservatoire/letablissement/equipe-administrative-1/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/equipe-administrative-1"
+      file: content/fr/pages/le-conservatoire/letablissement/equipe-administrative-1/_index.html
+    - title: École inclusive
+      target: "/le-conservatoire/letablissement/ecole-inclusive/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/ecole-inclusive"
+      file: content/fr/pages/le-conservatoire/letablissement/ecole-inclusive/_index.html
+    - title: International
+      target: "/le-conservatoire/letablissement/international/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/international"
+      file: content/fr/pages/le-conservatoire/letablissement/international/_index.html
+    - title: Partenaires
+      target: "/le-conservatoire/letablissement/partenaires/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/letablissement/partenaires"
+      file: content/fr/pages/le-conservatoire/letablissement/partenaires/_index.html
+    path: "/pages/le-conservatoire/letablissement"
+    file: content/fr/pages/le-conservatoire/letablissement/_index.html
+  - title: L'action culturelle
+    target: "/le-conservatoire/laction-culturelle/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Projets
+      target: "/le-conservatoire/laction-culturelle/projet/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/laction-culturelle/projet"
+      file: content/fr/pages/le-conservatoire/laction-culturelle/projet/_index.html
+    - title: L'orchestre Démos
+      target: "/le-conservatoire/laction-culturelle/lorchestre-demos/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/laction-culturelle/lorchestre-demos"
+      file: content/fr/pages/le-conservatoire/laction-culturelle/lorchestre-demos/_index.html
+    - title: L'orchestre des Colibris
+      target: "/le-conservatoire/laction-culturelle/lorchestre-des-colibris/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/laction-culturelle/lorchestre-des-colibris"
+      file: content/fr/pages/le-conservatoire/laction-culturelle/lorchestre-des-colibris/_index.html
+    - title: Visites découvertes
+      target: "/le-conservatoire/laction-culturelle/visites-decouvertes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/laction-culturelle/visites-decouvertes"
+      file: content/fr/pages/le-conservatoire/laction-culturelle/visites-decouvertes/_index.html
+    - title: Carliminot
+      target: "/le-conservatoire/laction-culturelle/carliminot/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/le-conservatoire/laction-culturelle/carliminot"
+      file: content/fr/pages/le-conservatoire/laction-culturelle/carliminot/_index.html
+    path: "/pages/le-conservatoire/laction-culturelle"
+    file: content/fr/pages/le-conservatoire/laction-culturelle/_index.html
+  path: "/pages/le-conservatoire"
+  file: content/fr/pages/le-conservatoire/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
@@ -106,4 +225,11 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Inscriptions
+  target: "/inscriptions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/inscriptions"
+  file: content/fr/pages/inscriptions/_index.html
 
