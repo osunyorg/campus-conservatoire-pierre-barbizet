@@ -226,7 +226,7 @@ items:
   path: "/pages/inscriptions"
   file: content/fr/pages/inscriptions/_index.html
 - title: Clarinette
-  target: "/formations/clarinette/"
+  target: "/lenseignement/formations/clarinette/"
   kind: program
   new_tab: false
   children: []
