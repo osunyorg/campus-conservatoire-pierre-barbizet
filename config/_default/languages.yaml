@@ -20,8 +20,8 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
     diplomas: /diplomes/:slug/
-    programs_categories: /formations/categories/:slug/
-    programs: /formations/:slug/
+    programs_categories: /lenseignement/formations/categories/:slug/
+    programs: /lenseignement/formations/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
