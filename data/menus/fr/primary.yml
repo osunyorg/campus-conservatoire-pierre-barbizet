@@ -42,12 +42,12 @@ items:
       new_tab: false
       children: []
     - title: Théâtre
-      target: "/formations/categories/theatre/"
+      target: "/lenseignement/formations/categories/theatre/"
       kind: url
       new_tab: false
       children: []
     - title: Danse
-      target: "/formations/categories/danse/"
+      target: "/lenseignement/formations/categories/danse/"
       kind: url
       new_tab: false
       children: []
