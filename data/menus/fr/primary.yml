@@ -232,4 +232,9 @@ items:
   children: []
   path: "/programs/clarinette"
   file: content/fr/programs/clarinette/_index.html
+- title: Instruments
+  target: "/formations/categories/instruments/"
+  kind: url
+  new_tab: false
+  children: []
 
