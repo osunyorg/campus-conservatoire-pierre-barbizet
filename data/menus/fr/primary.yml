@@ -22,22 +22,22 @@ items:
       new_tab: false
       children: []
     - title: Orchestres, ensembles & choeurs
-      target: "/formations/categories/orchestres-ensembles-choeurs/"
+      target: "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
       kind: url
       new_tab: false
       children: []
     - title: Formations musicales
-      target: "/formations/categories/formations-musicales/"
+      target: "/lenseignement/formations/categories/formations-musicales/"
       kind: url
       new_tab: false
       children: []
     - title: Créations musicales
-      target: "/formations/categories/creations-musicales/"
+      target: "/lenseignement/formations/categories/creations-musicales/"
       kind: url
       new_tab: false
       children: []
     - title: Jazz
-      target: "/formations/categories/jazz/"
+      target: "/lenseignement/formations/categories/jazz/"
       kind: url
       new_tab: false
       children: []
