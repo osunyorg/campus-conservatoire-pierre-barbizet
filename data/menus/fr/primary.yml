@@ -26,6 +26,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Formations musicales
+      target: "/formations/categories/formations-musicales/"
+      kind: url
+      new_tab: false
+      children: []
     path: "/pages/lenseignement/les-disciplines"
     file: content/fr/pages/lenseignement/les-disciplines/_index.html
   - title: Les parcours
