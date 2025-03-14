@@ -13,6 +13,27 @@ items:
     children: []
     path: "/pages/lenseignement/les-disciplines"
     file: content/fr/pages/lenseignement/les-disciplines/_index.html
+  - title: Les parcours
+    target: "/lenseignement/les-parcours/"
+    kind: page
+    new_tab: false
+    children:
+    - title: Schéma des études
+      target: "/lenseignement/les-parcours/schema-des-etudes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lenseignement/les-parcours/schema-des-etudes"
+      file: content/fr/pages/lenseignement/les-parcours/schema-des-etudes/_index.html
+    path: "/pages/lenseignement/les-parcours"
+    file: content/fr/pages/lenseignement/les-parcours/_index.html
+  - title: Les ressources
+    target: "/lenseignement/les-ressources/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/lenseignement/les-ressources"
+    file: content/fr/pages/lenseignement/les-ressources/_index.html
   path: "/pages/lenseignement"
   file: content/fr/pages/lenseignement/_index.html
 - title: Agenda
