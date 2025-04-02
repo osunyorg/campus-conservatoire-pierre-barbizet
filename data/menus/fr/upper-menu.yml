@@ -6,4 +6,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Espace Élèves et Enseignants
+  target: ''
+  kind: url
+  new_tab: true
+  children: []
 
