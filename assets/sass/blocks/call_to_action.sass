@@ -1,9 +1,15 @@
 .block-call_to_action
     --cta-background-color: transparent
     background: season-gradient(90deg, 60%)
-    @include in-page-with-or-without-sidebar
-        .block-title
-            @include h2
+    // @include in-page-with-or-without-sidebar
+    .call_to_action
+        .top
+            .block-title
+                @include h2
         .description
             p
                 @include h3
+
+// .block-call_to_action .top .block-title
+//     @include h2
+//     display: none
