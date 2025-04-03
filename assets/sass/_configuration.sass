@@ -1,10 +1,17 @@
-$heading-font-family: "Parabole", "Helvetica", "Arial", sans-serif
-$body-font-family: "SuisseIntl", "Helvetica", "Arial", sans-serif
+$parabole: "Parabole", "Helvetica", "Arial", sans-serif
+$suisse-intl: "SuisseIntl", "Helvetica", "Arial", sans-serif
+
+$body-font-family: $suisse-intl
+$heading-font-family: $suisse-intl
 
 $color-text-light: #FFFFFF
 
 // TYPOGRAPHY
 $h1-weight: normal
+$h1-font-family: $parabole
+$h1-size-desktop: pxToRem(100)
+
+$h2-size-desktop: pxToRem(50)
 
 $meta-font-family: $body-font-family
 $meta-size-desktop: pxToRem(18)
@@ -14,7 +21,7 @@ $signature-font-family: $body-font-family
 // HEADER
 $header-logo-height-desktop: auto
 $header-border-bottom-width: 0
-$header-sticky-background: linear-gradient(180deg, #FF8000 0%, #FFCE39 100%)
+$header-sticky-background: season-gradient()
 $header-sticky-dropdown-background: #FFCE39
 $header-upper-menu-background: transparent
 $header-upper-menu-sticky-background: transparent
@@ -27,3 +34,8 @@ $footer-background-color: none
 
 // HERO
 $hero-background: transparent
+
+
+// BLOCKS
+$block-call-to-action-accent-background: transparent
+$block-call-to-action-accent-color: var(--color-text)

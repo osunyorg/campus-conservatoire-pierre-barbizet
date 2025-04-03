@@ -17,3 +17,6 @@
         right: 0
         top: 0
         z-index: 1
+
+@function season-gradient($degree: 180deg, $start: var(--season-start-position), $end: var(--season-end-position))
+    @return linear-gradient(#{$degree}, var(--season-start-color) $start, var(--season-end-color) $end)
