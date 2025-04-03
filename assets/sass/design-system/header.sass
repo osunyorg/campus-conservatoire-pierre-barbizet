@@ -1,1 +1,44 @@
 header#document-header
+    background: linear-gradient(180deg, #FF8000 0%, #FFCE39 100%)
+    @include media-breakpoint-up(desktop)
+        > .container
+            display: flex
+            gap: var(--grid-gutter)
+            padding-top: $spacing-3
+            padding-bottom: $spacing-3
+            .logo
+                width: columns(2)
+                padding-top: pxToRem(8)
+            .menus
+                width: columns(10)
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                &__secondary
+                    flex: 1
+                    display: flex
+                    justify-content: space-between
+                .tagline
+                    width: columns(5)
+                    span
+                        display: block
+                nav.upper-menu
+                    position: relative
+                    width: columns(5)
+                    transition: 0
+                    background: transparent
+                    ul
+                        justify-content: end
+                        gap: $spacing-3
+                        a, span
+                            @include meta
+                            padding-top: 0 !important
+                nav.primary-menu
+                    width: columns(10)
+                    padding-bottom: 0
+                    .nav-search
+                        margin-left: auto
+                    .nav-level-1
+                        li:first-child
+                            a
+                                padding-left: 0

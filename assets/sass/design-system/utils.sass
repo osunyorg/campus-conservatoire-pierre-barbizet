@@ -1,0 +1,19 @@
+@mixin absolute-cover
+    bottom: 0
+    height: 100%
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
+    width: 100%
+
+@mixin cover-gradient
+    &::after
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 68.96%, rgba(0, 0, 0, 0.8) 100%)
+        bottom: 0
+        content: ''
+        left: 0
+        position: absolute
+        right: 0
+        top: 0
+        z-index: 1

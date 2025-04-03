@@ -1,0 +1,12 @@
+{{ $upper_menu := partial "GetMenu" "upper-menu" }}
+{{ if $upper_menu.items }}
+  <nav class="upper-menu" aria-label="{{ i18n "commons.menu.upper" }}">
+    {{ partial "commons/menu.html" (dict
+        "context" .
+        "ignore_externals" true
+        "kind" "upper-menu"
+        "level" 1
+        "stop" 1
+      )}}
+  </nav>
+{{ end }}

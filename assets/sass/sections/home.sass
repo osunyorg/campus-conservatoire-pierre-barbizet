@@ -1,0 +1,21 @@
+.page__home
+    @include media-breakpoint-up(desktop)
+        .hero
+            --color-text: #{$color-text-light}
+            align-items: end
+            display: flex
+            min-height: pxToRem(780)
+            padding-bottom: 0
+            position: relative
+            .hero-text
+                position: relative
+                z-index: 2
+            figure
+                @include absolute-cover
+                @include cover-gradient
+                z-index: 0
+                picture
+                    @include absolute-cover
+                    img
+                        height: 100%
+                        object-fit: cover

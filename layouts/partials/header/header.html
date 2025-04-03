@@ -1,0 +1,18 @@
+{{ $upper_menu := partial "GetMenu" "upper-menu" }}
+
+<header id="document-header" role="banner"
+  {{ if $upper_menu.items }}
+    class="has-upper-menu"
+  {{ end }}>
+  <div class="container">
+    {{ partial "header/logo.html" . }}
+    <div class="menus">
+      <div class="menus__secondary">
+        {{ partial "header/tagline.html" . }}
+        {{ partial "header/upper-menu.html" . }}
+      </div>
+      {{ partial "header/primary-menu.html" . }}
+    </div>
+    {{ partial "hooks/before-header-end.html" . }}
+  </div>
+</header>
