@@ -2,17 +2,23 @@
     @include media-breakpoint-up(desktop)
         .hero
             --color-text: #{$color-text-light}
-            align-items: end
-            display: flex
-            min-height: pxToRem(780)
             padding-bottom: 0
-            position: relative
+            > .container
+                align-items: end
+                display: flex
+                height: 48vw
+                max-height: calc(95vh - var(--header-height))
+                padding-bottom: 0
+                position: relative
             .hero-text
                 position: relative
                 z-index: 2
             figure
                 @include absolute-cover
                 @include cover-gradient
+                left: 50%
+                transform: translateX(-50%)
+                width: 100vw
                 z-index: 0
                 picture
                     @include absolute-cover
