@@ -1,4 +1,5 @@
 .page__home
+    // HERO
     @include media-breakpoint-up(desktop)
         .hero
             --color-text: #{$color-text-light}
@@ -25,3 +26,14 @@
                     img
                         height: 100%
                         object-fit: cover
+
+    // BLOCKS
+    .blocks
+        .block
+            .block-title
+                @include h2
+        @include media-breakpoint-up(desktop)
+            .block-chapter
+                .chapter
+                    .text
+                        width: columns(10)
