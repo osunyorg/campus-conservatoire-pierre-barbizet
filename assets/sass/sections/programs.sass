@@ -1,3 +1,27 @@
-.programs_categories__term,
 .programs__section
-  ol.programs
+    .taxonomies-container
+        display: none
+    .hero
+        .hero-text
+            margin-top: 0
+    @include media-breakpoint-up(desktop)
+        .document-content
+            .content
+                > h2
+                    @include h2
+
+.programs--light
+    li
+        background: var(--color-accent)
+        border-bottom: 0 !important
+        color: var(--color-text)
+        padding-left: $spacing-2
+        padding-right: $spacing-2
+        transition: $color-duration
+        &:hover, &:focus-within
+            background: var(--season-start-color)
+        .program-title
+            a:hover, a:focus
+                color: var(--color-text) !important
+        + li
+            margin-top: pxToRem(2)

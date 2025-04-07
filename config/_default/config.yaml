@@ -14,6 +14,11 @@ params:
       options:
         image: true
         summary: true
+    single:
+      taxonomies: 
+        display: false
+    share_links:
+      enabled: false
   image_sizes:
     sections:
       home:
