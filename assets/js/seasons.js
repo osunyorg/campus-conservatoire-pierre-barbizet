@@ -1,4 +1,4 @@
-import './gradients';
+import './colors';
 window.cpbm = window.cpbm || {};
 
 window.cpbm.seasons = {
@@ -73,11 +73,12 @@ window.cpbm.seasons = {
     }.bind(this));
   },
   setColors: function () {
-    var gradient = window.cpbm.gradients[this.index];
+    var gradient = window.cpbm.colors.gradients[this.index],
+      accent = window.cpbm.colors.accents[this.index];
 
     document.body.style.setProperty('--season-start-color', gradient[this.quarter].start);
     document.body.style.setProperty('--season-end-color', gradient[this.quarter].end);
-    document.body.style.setProperty('--color-accent', gradient[this.quarter].start); // define accent color
+    document.body.style.setProperty('--color-accent', accent); // define accent color
   }
 };
 
