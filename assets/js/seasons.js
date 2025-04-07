@@ -65,7 +65,6 @@ window.cpbm.seasons = {
           { index: 3, name: 'night', hour: 20 }
         ];
 
-    console.log(this.date.getHours());
     quarters.forEach(function(_quarter) {
       if (this.date.getHours() >= _quarter.hour) {
         this.quarter = _quarter.index;
@@ -73,12 +72,11 @@ window.cpbm.seasons = {
     }.bind(this));
   },
   setColors: function () {
-    var gradient = window.cpbm.colors.gradients[this.index],
-      accent = window.cpbm.colors.accents[this.index];
+    var colors = window.cpbm.colors[this.index];
 
-    document.body.style.setProperty('--season-start-color', gradient[this.quarter].start);
-    document.body.style.setProperty('--season-end-color', gradient[this.quarter].end);
-    document.body.style.setProperty('--color-accent', accent); // define accent color
+    document.body.style.setProperty('--season-start-color', colors[this.quarter].start);
+    document.body.style.setProperty('--season-end-color', colors[this.quarter].end);
+    document.body.style.setProperty('--color-accent', colors[this.quarter].accent); // define accent color
   }
 };
 
