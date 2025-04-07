@@ -59,10 +59,10 @@ window.cpbm.seasons = {
   },
   setCurrentDayQuarter: function () {
     var quarters = [
-          { index: 0, name: 'morning', hour: 6 },
-          { index: 1, name: 'midday', hour: 11 },
-          { index: 2, name: 'afternoon', hour: 15 },
-          { index: 3, name: 'night', hour: 20 }
+          { index: 0, hour: 0 },
+          { index: 1, hour: 6 },
+          { index: 2, hour: 12 },
+          { index: 3, hour: 18 }
         ];
 
     quarters.forEach(function(_quarter) {
@@ -77,6 +77,7 @@ window.cpbm.seasons = {
     document.body.style.setProperty('--season-start-color', colors[this.quarter].start);
     document.body.style.setProperty('--season-end-color', colors[this.quarter].end);
     document.body.style.setProperty('--color-accent', colors[this.quarter].accent); // define accent color
+    document.body.style.setProperty('--color-background-alt', colors[this.quarter].accent + '30'); // define accent color
   }
 };
 

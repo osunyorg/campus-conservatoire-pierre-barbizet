@@ -6,19 +6,19 @@ window.cpbm.colors = [
     {
       start: '#FDD2B4',
       end: '#BBE2FF',
-      accent: '#7290FC'
+      accent: '#2152FF'
     },
     // midday
     {
       start: '#6D8DFF',
       end: '#BBE2FF',
-      accent: '#7290FC'
+      accent: '#2152FF'
     },
     // afternoon
     {
       start: '#6D8DFF',
       end: '#FDD2B4',
-      accent: '#7290FC'
+      accent: '#FFA100'
     },
     // night
     {
@@ -34,25 +34,25 @@ window.cpbm.colors = [
     {
       start: '#7ECBFF',
       end: '#00FFA6',
-      accent: '#FE6C78'
+      accent: '#00AF72'
     },
     // midday
     {
       start: '#08FCAB',
       end: '#FFFA9D',
-      accent: '#FE6C78'
+      accent: '#00AF72'
     },
     // afternoon
     {
       start: '#FFFA9D',
       end: '#F47DF9',
-      accent: '#FE6C78'
+      accent: '#F73BFF'
     },
     // night
     {
       start: '#F47EFF',
       end: '#FE6C78',
-      accent: '#FE6C78'
+      accent: '#F73BFF'
     }
   ],
 
@@ -62,25 +62,25 @@ window.cpbm.colors = [
     {
       start: '#E33CB9',
       end: '#FFFB00',
-      accent: '#FF8504'
+      accent: '#F73BFF'
     },
     // midday
     {
       start: '#FEF605',
       end: '#F1939F',
-      accent: '#FF8504'
+      accent: '#FF6578'
     },
     // afternoon
     {
       start: '#FF8504',
       end: '#F1939F',
-      accent: '#FF8504'
+      accent: '#FF6578'
     },
     // night
     {
       start: '#FF8000',
       end: '#FFFA9D',
-      accent: '#FF8504'
+      accent: '#FF8000'
     }
   ],
   // AUTUMN
@@ -90,25 +90,25 @@ window.cpbm.colors = [
     {
       start: '#FFADBD',
       end: '#6D8DFF',
-      accent: '#6D8DFF'
+      accent: '#2958FF'
     },
     // midday
     {
       start: '#6D8DFF',
       end: '#F7CFF3',
-      accent: '#6D8DFF'
+      accent: '#2958FF'
     },
     // afternoon
     {
       start: '#F7CFF3',
       end: '#FDF20C',
-      accent: '#6D8DFF'
+      accent: '#FF659B'
     },
     // night
     {
       start: '#FCF017',
       end: '#FF8504',
-      accent: '#6D8DFF'
+      accent: '#FF8000'
     }
   ]
 ];
