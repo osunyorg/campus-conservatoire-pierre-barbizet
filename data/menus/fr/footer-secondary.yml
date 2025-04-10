@@ -1,4 +1,9 @@
 ---
 title: Footer secondaire
-items: []
+items:
+- title: Location d’espaces
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
 
