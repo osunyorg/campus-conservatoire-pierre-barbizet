@@ -37,3 +37,26 @@
                 .chapter
                     .text
                         width: columns(10)
+                &.block-class-title-on-left
+                    .block-content
+                        .chapter
+                            display: block
+                        .text
+                            display: flex
+                            gap: var(--grid-gutter)
+                            .top
+                                width: columns(4)
+                                flex-shrink: 0
+                            .rich-text
+                                width: columns(6)
+                                flex-shrink: 0
+                                > p:first-child > b
+                                    @include h2
+
+            .block-categories
+                .block-content
+                    .top
+                        @include top-flex
+                    .categories
+                        padding-left: offset(4)
+                        position: relative
