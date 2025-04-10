@@ -11,6 +11,9 @@ header#document-header
                     @extend .button--small
                     font-size: var(--h3-size)
                     display: inline
+    .tagline
+        a
+            text-decoration: none !important
     @include media-breakpoint-up(desktop)
         > .container
             display: flex
@@ -57,3 +60,29 @@ header#document-header
                                 padding-left: 0
                         > li:nth-last-child(2)
                             margin-left: $spacing-2
+        &.is-sticky
+            > .container
+                background: url(/assets/icons/logo-c.svg) no-repeat top left, url(/assets/icons/logo-p.svg) no-repeat top right, url(/assets/icons/logo-b.svg) no-repeat bottom left, url(/assets/icons/logo-m.svg) no-repeat bottom right
+                padding-bottom: space(3)
+                padding-top: space(3)
+                .menus
+                    width: auto
+                    align-items: center
+                    flex: 1
+                    flex-direction: row
+                    gap: var(--grid-gutter)
+                    .menus__secondary
+                        flex-grow: 0
+                .logo, .upper-menu
+                    display: none
+                .tagline
+                    width: columns(2)
+                    line-height: pxToRem(23)
+                    span:nth-child(2)
+                        display: none
+                nav.primary-menu
+                    width: auto
+                    padding-top: 0
+                    flex-grow: 1
+                    .nav-level-1
+                        margin-bottom: 0
