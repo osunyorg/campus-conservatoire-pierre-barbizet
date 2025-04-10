@@ -11,4 +11,16 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: FAQ
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 
