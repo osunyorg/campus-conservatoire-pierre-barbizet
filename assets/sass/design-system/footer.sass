@@ -1,3 +1,16 @@
 footer#document-footer
     background: linear-gradient(0deg, var(--season-start-color) 0%, var(--season-end-color) 50%, var(--color-background) 100%)
     transition: background 0.3s
+    .footer-site
+        text-align: left
+    .footer-primary-menu
+        text-align: right
+    .footer-secondary-menu,
+    .footer-social,
+    .footer-legals
+        li, .nav-legal, .footer-credit
+            display: inline
+    .footer-legals
+        @include meta
+    .container + .container
+        display: block
