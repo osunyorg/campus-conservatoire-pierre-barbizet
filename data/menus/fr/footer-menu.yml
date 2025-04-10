@@ -1,4 +1,9 @@
 ---
 title: Footer menu
-items: []
+items:
+- title: Contact
+  target: 'mailto:'
+  kind: url
+  new_tab: true
+  children: []
 
