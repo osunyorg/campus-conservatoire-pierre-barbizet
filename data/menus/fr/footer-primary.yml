@@ -1,4 +1,14 @@
 ---
-title: Footer Principale
-items: []
+title: Footer Principal
+items:
+- title: Contact
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
+- title: FAQ
+  target: ''
+  kind: blank
+  new_tab: false
+  children: []
 
