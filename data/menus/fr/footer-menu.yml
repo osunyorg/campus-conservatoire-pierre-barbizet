@@ -6,4 +6,9 @@ items:
   kind: url
   new_tab: true
   children: []
+- title: Newsletter
+  target: ''
+  kind: url
+  new_tab: true
+  children: []
 
