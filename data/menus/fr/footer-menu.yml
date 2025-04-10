@@ -1,11 +1,6 @@
 ---
 title: Footer menu
 items:
-- title: Contact
-  target: 'mailto:'
-  kind: url
-  new_tab: true
-  children: []
 - title: Newsletter
   target: ''
   kind: url
