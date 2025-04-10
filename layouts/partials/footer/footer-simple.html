@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="site">
+    <div class="footer-logo">
+      <a href="{{ site.Home.Permalink }}" title="{{ i18n "commons.index" (dict "Title" site.Title )}}">
+        {{ site.Title }}
+      </a>
+    </div>
+    <div class="footer-site">
+      {{ partial "footer/site.html" }}
+    </div>
+  </div>
+  <div class="footer-attached-sites">
+
+  </div>
+  <div class="footer-campus">
+    
+  </div>
+  <div class="footer-primary-menu">
+    {{ partial "commons/menu.html" (dict "kind" "footer-primary" ) }}
+  </div>
+</div>
+
+<div class="container">
+  <div class="footer-secondary-menu">
+    {{ partial "commons/menu.html" (dict "kind" "footer-secondary" ) }}
+  </div>
+  <div class="footer-social">
+    {{ partial "footer/social.html" . }}
+  </div>
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+    {{ partial "footer/credit.html" . }}
+  </div>
+</div>
