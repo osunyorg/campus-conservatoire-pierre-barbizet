@@ -1,0 +1,17 @@
+{{ $campus := index site.Data.campus (printf "%s" site.Language) }}
+{{ with index $campus "attached-sites" }}
+  <h3>Annexes</h3>
+  {{ range . }}
+    <div itemscope itemtype="https://schema.org/Organization">
+      <p itemprop="name">{{ .name }}</p>
+      {{ with .postal_address }} 
+        {{ partial "commons/address.html" . }}
+      {{- end }}
+      {{- with .phone_numbers.phone -}}
+          <p>
+            <a itemprop="telephone" href="{{ .value }}">{{ .label }}</a>
+          </p>
+        {{- end }}
+    </div>
+  {{ end }}
+{{ end }}
