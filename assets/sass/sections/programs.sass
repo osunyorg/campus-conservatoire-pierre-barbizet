@@ -9,9 +9,34 @@
             .content
                 > h2
                     @include h2
-    .blocks
-        &.block-gallery--carousel
-            margin-left: columns(-4)
+        .blocks
+            .block-gallery--carousel 
+                margin-left: calc(#{offset(-4)} - var(--grid-gutter))
+                margin-right: var(--grid-gutter-negative)
+                .container
+                    padding-left: var(--grid-gutter) !important
+                    padding-right: var(--grid-gutter) !important
+                .block-content
+                    padding-left: offset(4) !important
+                figure
+                    display: flex
+                    align-items: end
+                    gap: $spacing-1
+                    margin-right: $spacing-1
+                    figcaption
+                        writing-mode: sideways-lr
+                        text-orientation: mixed
+                        max-height: $block-gallery-carousel-height-desktop
+                        margin-top: 0
+                        &::before
+                            content: '↑ '
+                        > * 
+                            display: inline
+                        p
+                            display: inline
+                            margin-left: 0
+                            margin-right: 0
+
 .programs--light
     li
         background: var(--color-accent)
