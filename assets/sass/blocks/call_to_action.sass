@@ -1,4 +1,5 @@
 .block-call_to_action
+    --season-start-position: 60%
     transition: background 0.3s
     margin-bottom: var(--block-space-y)
     .call_to_action
@@ -11,13 +12,13 @@
     @include in-page-with-sidebar
         &--accent_background
             .call_to_action
-                background: season-gradient(90deg, 60%)
+                background: season-gradient(90deg)
     @include in-page-without-sidebar
         &--accent_background
             .block-content
                 margin-left: 0
                 margin-right: 0
-                background: season-gradient(90deg, 60%)
+                background: season-gradient(90deg)
                 padding: columns(1)
             .call_to_action--without-image:not(.call_to_action--without-text)
                 > div
@@ -31,3 +32,7 @@
                     .actions
                         align-items: end
                         width: offset(3)
+    // @for $i from 1 through 30
+    //     &:nth-child(#{$i})
+    //         --season-start-position: #{60 - $i * 5}%
+

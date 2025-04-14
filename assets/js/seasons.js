@@ -9,10 +9,13 @@ window.cpbm.seasons = {
 
     // Get the season
     this.setCurrentSeason();
+
     // Get the period of the day
     this.setCurrentDayQuarter();
 
     this.setColors();
+
+    this.setCTA();
 
     this.listen();
   },
@@ -78,6 +81,12 @@ window.cpbm.seasons = {
     document.body.style.setProperty('--season-end-color', colors[this.quarter].end);
     document.body.style.setProperty('--color-accent', colors[this.quarter].accent); // define accent color
     // document.body.style.setProperty('--color-background-alt', colors[this.quarter].accent + '30'); // define accent color
+  },
+  setCTA: function () {
+    var blocks = document.querySelectorAll('.block-call_to_action--accent_background');
+    blocks.forEach(function (block, i) {
+      block.style.setProperty('--season-start-position', 60 - (i % 5) * 10 + '%');
+    });
   }
 };
 
