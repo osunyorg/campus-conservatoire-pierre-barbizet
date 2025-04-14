@@ -1,8 +1,16 @@
 footer#document-footer
     background: linear-gradient(0deg, var(--season-start-color) 0%, var(--season-end-color) 50%, var(--color-background) 100%)
     transition: background 0.3s
+    .footer-logo
+        @include meta
     .footer-site
         text-align: left
+        [itemprop="name"]
+            display: none
+        address
+            @include body-text
+            margin-bottom: $spacing-3
+            margin-top: $spacing-3
     .footer-primary-menu
         text-align: right
     .footer-secondary-menu,
@@ -14,3 +22,29 @@ footer#document-footer
         @include meta
     .container + .container
         display: block
+    .footer-campus
+        a[target="_blank"]
+            &::before
+                display: none
+        .rich-text
+            @include meta
+            margin-top: $spacing-4
+            a
+                display: block
+    .footer-attached-sites
+        h3, address, [itemprop="telephone"]
+            @include meta
+        h3, [itemprop="telephone"]
+            margin-bottom: $spacing-3
+            display: block
+    @include media-breakpoint-up(desktop)
+        .container
+            justify-content: start
+            gap: var(--grid-gutter)
+        .site, .footer-attached-sites
+            flex-shrink: 0
+            width: columns(2)
+        .footer-primary-menu
+            margin-top: $spacing-4
+            li + li 
+                margin-top: 0

@@ -7,13 +7,14 @@
     </div>
     <div class="footer-site">
       {{ partial "footer/site.html" }}
+      {{ i18n "cam.footer.site.infos" }}
     </div>
   </div>
   <div class="footer-attached-sites">
-    {{ partial "footer/attached-sites" . }}
+    {{ partial "footer/attached-sites.html" . }}
   </div>
   <div class="footer-campus">
-    
+    {{ partial "footer/campus-art-mediterranee.html" . }}
   </div>
   <div class="footer-primary-menu">
     {{ partial "commons/menu.html" (dict "kind" "footer-primary" ) }}

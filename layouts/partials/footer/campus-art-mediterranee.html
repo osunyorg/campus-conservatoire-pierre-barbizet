@@ -1,0 +1,12 @@
+{{ $file := "/assets/images/icons/logo-campus.svg" }}
+
+<a href="{{ site.Params.cam.url }}" rel="noopener noreferrer" target="_blank" title="{{ i18n "cam.link.title" }}">
+  {{ if $file }}
+    {{ $fileDimensions := partial "GetImageDimensions" (dict "context" . "file" $file "static" true) }}
+    <img src="{{ $file }}" alt="{{ site.Title }}" height="{{ index $fileDimensions 1 }}" width="{{ index $fileDimensions 0 }}">
+  {{ end }}
+</a>
+
+<div class="rich-text">
+  {{ i18n "cam.footer.text" | markdownify }}
+</div>
