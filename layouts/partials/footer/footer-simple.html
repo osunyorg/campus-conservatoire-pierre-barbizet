@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container footer__primary">
   <div class="site">
     <div class="footer-logo">
       <a href="{{ site.Home.Permalink }}" title="{{ i18n "commons.index" (dict "Title" site.Title )}}">
@@ -21,13 +21,11 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container footer__secondary">
   <div class="footer-secondary-menu">
     {{ partial "commons/menu.html" (dict "kind" "footer-secondary" ) }}
   </div>
-  <div class="footer-social">
-    {{ partial "footer/social.html" . }}
-  </div>
+
   <div class="footer-legals">
     {{ partial "footer/legals.html" . }}
     {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
@@ -35,6 +33,13 @@
         {{ partial "commons/search/button.html" "footer" }}
       </div>
     {{ end }}
-    {{ partial "footer/credit.html" . }}
+    <div class="footer-social">
+      {{ partial "footer/social.html" . }}
+    </div>  
   </div>
 </div>
+
+<div class="container">
+  {{ partial "footer/credit.html" . }}
+</div>
+
