@@ -14,6 +14,35 @@ header#document-header
     .tagline
         a
             text-decoration: none !important
+    @include media-breakpoint-down(desktop)
+        padding-bottom: var(--grid-gutter)
+        padding-top: var(--grid-gutter)
+        > .container
+            display: flex
+            align-items: start
+            .tagline
+                width: 10ch
+                word-break: break-word
+                line-height: pxToRem(19)
+                span:nth-child(2)
+                    display: none
+            .menus
+                flex: 1
+                display: flex
+                align-items: baseline
+                justify-content: space-between
+            .logo
+                padding-right: space(3)
+                padding-top: pxToRem(3)
+                img
+                    height: pxToRem(70)
+            .primary-menu
+                padding-top: 0
+                padding-bottom: 0
+                .header-button
+                    margin-top: $icon-burger-margin-right
+                    span:first-of-type
+                        text-transform: none
     @include media-breakpoint-up(desktop)
         > .container
             display: flex
