@@ -9,6 +9,17 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            conservatoirepierrebarbizet
+          value: >-
+            https://www.facebook.com/conservatoirepierrebarbizet
+        instagram:
+          label: >-
+            conservatoirepierrebarbizet
+          value: >-
+            https://instagram.com/conservatoirepierrebarbizet
 
   permalinks:
     events: /agenda/:year/:slug/
