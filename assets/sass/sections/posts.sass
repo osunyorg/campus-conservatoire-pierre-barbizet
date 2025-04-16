@@ -2,9 +2,6 @@
     .hero
         .content
             padding-top: $spacing-3
-            figure
-                width: columns(4)
-                order: -1
         .hero-text
             display: flex
             flex-direction: column
@@ -12,3 +9,12 @@
             > time
                 order: -1
                 margin-bottom: $spacing-3
+        h1 > span
+            @include h2
+            color: var(--color-text)
+    @include media-breakpoint-up(desktop)
+        .hero
+            .content
+                figure
+                    width: columns(4)
+                    order: -1
