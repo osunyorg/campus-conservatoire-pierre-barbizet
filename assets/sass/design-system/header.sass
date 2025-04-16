@@ -20,29 +20,70 @@ header#document-header
         > .container
             display: flex
             align-items: start
+            position: relative
             .tagline
                 width: 10ch
                 word-break: break-word
                 line-height: pxToRem(19)
+                margin-left: pxToRem(82)
                 span:nth-child(2)
                     display: none
             .menus
+                position: relative
                 flex: 1
-                display: flex
-                align-items: baseline
-                justify-content: space-between
             .logo
-                padding-right: space(3)
                 padding-top: pxToRem(3)
+                position: absolute
                 img
                     height: pxToRem(70)
             .primary-menu
                 padding-top: 0
                 padding-bottom: 0
                 .header-button
+                    position: absolute
+                    right: var(--grid-gutter)
+                    right: 0
+                    top: 0
                     margin-top: $icon-burger-margin-right
                     span:first-of-type
                         text-transform: none
+            .menu
+                .nav-level-1
+                    > li:nth-last-child(2)
+                        > a
+                            display: block
+                            margin-bottom: pxToRem(17)
+                            margin-top: pxToRem(17)
+        .has-menu-opened &
+            height: rvh(100)
+        &.has-upper-menu
+            display: flex
+            flex-direction: column
+            gap: $spacing-2
+            justify-content: space-between
+            .menu
+                padding-top: 0
+                margin-top: 0
+                border-bottom: var(--border-width) solid $color-border
+            .upper-menu
+                position: relative
+                // bottom: 0
+                // right: 0
+                // left: 0
+                top: auto
+                padding-left: var(--grid-gutter)
+                padding-right: var(--grid-gutter)
+                .nav-level-1
+                    @include body-text
+                    flex-direction: column
+                    height: auto
+                    padding-bottom: $spacing-2
+                    gap: 0
+                    li
+                        padding-bottom: $spacing-2
+                        padding-top: $spacing-2
+                        border-top: var(--border-width) solid $color-border
+
     @include media-breakpoint-up(desktop)
         > .container
             display: flex
