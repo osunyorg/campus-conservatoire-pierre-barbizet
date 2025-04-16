@@ -4,7 +4,7 @@ html
 
 a,
 .link
-    &[target="_blank"]:not(.icon),
+    &[target="_blank"]:not(.icon, [download]),
         &:not([href^="/"])
             &::after
                 display: none
@@ -12,6 +12,7 @@ a,
                 content: url("/assets/images/icons/external-arrow.svg")
                 display: inline-block
                 vertical-align: middle
+                line-height: 1
 
 h3, .h3
     letter-spacing: -3%
