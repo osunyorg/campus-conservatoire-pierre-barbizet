@@ -171,12 +171,12 @@ items:
       path: "/pages/le-conservatoire/letablissement/campus-art-mediterranee"
       file: content/fr/pages/le-conservatoire/letablissement/campus-art-mediterranee/_index.html
     - title: Équipe enseignante
-      target: "/equipe-enseignante/"
+      target: "/le-conservatoire/letablissement/equipe-enseignante/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/equipe-enseignante"
-      file: content/fr/pages/equipe-enseignante/_index.html
+      path: "/pages/le-conservatoire/letablissement/equipe-enseignante"
+      file: content/fr/pages/le-conservatoire/letablissement/equipe-enseignante/_index.html
     - title: Équipe administrative
       target: "/le-conservatoire/letablissement/equipe-administrative-1/"
       kind: page
