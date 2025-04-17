@@ -9,10 +9,10 @@ a,
             &::after
                 display: none
             &::before
-                content: url("/assets/images/icons/external-arrow.svg")
-                display: inline-block
-                vertical-align: middle
+                @include icon-site('external-arrow')
+                font-size: 0.9em
                 line-height: 1
+                padding-right: space(2)
 
 h3, .h3
     letter-spacing: -3%

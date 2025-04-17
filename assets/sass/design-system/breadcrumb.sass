@@ -3,4 +3,6 @@
     li
         &:not(:first-child)
             &::before
-                content: url("/assets/images/icons/arrow.svg")
+                @include icon-site('arrow')
+                font-size: 0.415em
+                vertical-align: middle

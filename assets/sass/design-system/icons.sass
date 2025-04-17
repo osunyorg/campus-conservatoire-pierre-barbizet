@@ -1,0 +1,27 @@
+$font-icons-site: 'icons'
+
+@font-face
+    font-display: block
+    font-family: $font-icons-site
+    font-style: normal
+    font-weight: 400
+    src:  url('/assets/fonts/icomoon.eot?7q2xy6#iefix') format('embedded-opentype'), url('/assets/fonts/icomoon.ttf?7q2xy6') format('truetype'), url('/assets/fonts/icomoon.woff?7q2xy6') format('woff'), url('/assets/fonts/icomoon.svg?7q2xy6#icomoon') format('svg')
+
+
+$icons-site: ()
+$icons-site: map-merge($icons-site, ("arrow": "\e919"))
+$icons-site: map-merge($icons-site, ("bullet": "\e91a"))
+$icons-site: map-merge($icons-site, ("calendar": "\e91b"))
+$icons-site: map-merge($icons-site, ("external-arrow": "\e91d"))
+$icons-site: map-merge($icons-site, ("facebook": "\e91e"))
+$icons-site: map-merge($icons-site, ("instagram": "\e91f"))
+$icons-site: map-merge($icons-site, ("logo-b": "\e920"))
+$icons-site: map-merge($icons-site, ("logo-c": "\e921"))
+$icons-site: map-merge($icons-site, ("logo-m": "\e922"))
+$icons-site: map-merge($icons-site, ("logo-p": "\e923"))
+
+
+@mixin icon-site($icon)
+    @include icon
+    content: map-get($icons-site, $icon)
+    font-family: $font-icons-site
