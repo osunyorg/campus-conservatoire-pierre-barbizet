@@ -13,53 +13,6 @@ items:
     children: []
     path: "/pages/lenseignement/quenseigne-t-on-au-conservatoire"
     file: content/fr/pages/lenseignement/quenseigne-t-on-au-conservatoire/_index.html
-  - title: Les disciplines
-    target: "/lenseignement/formations/categories/disciplines/"
-    kind: url
-    new_tab: false
-    children:
-    - title: Instruments
-      target: "/formations/categories/instruments/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Voix
-      target: "/lenseignement/formations/categories/voix/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Orchestres, ensembles & choeurs
-      target: "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Formations musicales
-      target: "/lenseignement/formations/categories/formations-musicales/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Créations musicales
-      target: "/lenseignement/formations/categories/creations-musicales/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Jazz
-      target: "/lenseignement/formations/categories/jazz/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Théâtre
-      target: "/lenseignement/formations/categories/theatre/"
-      kind: url
-      new_tab: false
-      children: []
-    - title: Danse
-      target: "/lenseignement/formations/categories/danse/"
-      kind: url
-      new_tab: false
-      children: []
-    path: "/pages/lenseignement/les-disciplines"
-    file: content/fr/pages/lenseignement/les-disciplines/_index.html
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
