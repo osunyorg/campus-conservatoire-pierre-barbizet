@@ -48,6 +48,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Théâtre
+      target: "/lenseignement/formations/categories/theatre/"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
