@@ -28,6 +28,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Orchestres, ensembles & choeurs
+      target: "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
