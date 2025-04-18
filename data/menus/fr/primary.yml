@@ -6,6 +6,13 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: Qu'enseigne-t-on au CPBM ?
+    target: "/lenseignement/quenseigne-t-on-au-conservatoire/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/lenseignement/quenseigne-t-on-au-conservatoire"
+    file: content/fr/pages/lenseignement/quenseigne-t-on-au-conservatoire/_index.html
   - title: Les disciplines
     target: "/lenseignement/formations/categories/disciplines/"
     kind: url
@@ -137,13 +144,6 @@ items:
       file: content/fr/pages/lenseignement/les-ressources/pret-dinstruments/_index.html
     path: "/pages/lenseignement/les-ressources"
     file: content/fr/pages/lenseignement/les-ressources/_index.html
-  - title: Qu'enseigne-t-on au CPBM ?
-    target: "/lenseignement/quenseigne-t-on-au-conservatoire/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/lenseignement/quenseigne-t-on-au-conservatoire"
-    file: content/fr/pages/lenseignement/quenseigne-t-on-au-conservatoire/_index.html
   path: "/pages/lenseignement"
   file: content/fr/pages/lenseignement/_index.html
 - title: Le Conservatoire
