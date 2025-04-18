@@ -23,6 +23,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Voix
+      target: "/lenseignement/formations/categories/voix/"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
