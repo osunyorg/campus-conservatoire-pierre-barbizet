@@ -53,6 +53,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Danse
+      target: "/lenseignement/formations/categories/disciplines/danse"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
