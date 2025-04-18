@@ -33,6 +33,8 @@ fr:
     diplomas: /diplomes/:slug/
     programs_categories: /lenseignement/formations/categories/:slug/
     programs: /lenseignement/formations/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
     persons: /equipe/:slug/
     persons_categories: /equipe/categories/:slug/
     authors: /equipe/:slug/actualites/
