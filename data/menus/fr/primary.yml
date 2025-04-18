@@ -43,6 +43,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Jazz
+      target: "/lenseignement/formations/categories/jazz/"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
