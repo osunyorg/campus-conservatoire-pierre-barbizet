@@ -49,7 +49,7 @@ items:
       new_tab: false
       children: []
     - title: Théâtre
-      target: "/lenseignement/formations/categories/theatre/"
+      target: "/lenseignement/formations/categories/disciplines/theatre/"
       kind: url
       new_tab: false
       children: []
