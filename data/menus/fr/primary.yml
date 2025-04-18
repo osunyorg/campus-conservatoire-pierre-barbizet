@@ -38,6 +38,11 @@ items:
       kind: url
       new_tab: false
       children: []
+    - title: Créations musicales
+      target: "/lenseignement/formations/categories/creations-musicales/"
+      kind: url
+      new_tab: false
+      children: []
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
