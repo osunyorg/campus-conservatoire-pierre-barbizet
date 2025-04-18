@@ -1,5 +1,9 @@
-// body.offcanvas-toc
-//     @include media-breakpoint-up(desktop)
-//         .toc-cta
-//             position: relative !important
-//             top: auto !important
+.toc-content
+    .toc-pages
+        li
+            .active
+                color: $color-text
+                &::after
+                    content: "■"
+                    margin-left: 5px
+                    color: var(--color-accent)
