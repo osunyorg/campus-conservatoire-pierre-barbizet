@@ -56,3 +56,17 @@
                 color: var(--color-text) !important
         + li
             margin-top: pxToRem(2)
+
+.programs_categories__term
+    .categories
+        .programs_category-title
+            @include lead
+    .programs.programs--grid
+        @include grid(3, desktop)
+        .program
+            .program-title
+                @include h2
+                margin-bottom: $spacing-3
+            .media
+                img
+                    aspect-ratio: 1
