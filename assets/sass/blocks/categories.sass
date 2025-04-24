@@ -1,0 +1,15 @@
+.block-categories
+    .categories
+        &--list
+            li
+                padding-top: 0
+                border: none !important
+                @include media-breakpoint-up(desktop)
+                    article
+                        .media
+                            width: columns(4)
+    @include in-page-without-sidebar
+        .categories--list
+            .category-content
+                .programs_category-title
+                    @include body-text
