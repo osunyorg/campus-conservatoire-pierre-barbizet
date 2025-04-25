@@ -1,4 +1,5 @@
 .hero
     a[download]
         &::after
-            content: url("/assets/images/icons/download.svg")
+            @include icon-site('download')
+            padding-left: pxToRem(10)

@@ -23,6 +23,9 @@ params:
     single:
       taxonomies: 
         display: false
+      options:
+        diploma_certification: false
+        logo: false
     share_links:
       enabled: false
   image_sizes:

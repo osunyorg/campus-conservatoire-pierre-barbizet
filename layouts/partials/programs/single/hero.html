@@ -1,0 +1,9 @@
+{{- $title := or .Params.header_text .Title -}}
+
+{{ partial "header/hero.html"
+      (dict
+        "title" $title
+        "context" .
+        "hero_content_complement" "programs/single/hero/buttons.html"
+        "hero_complement" "programs/single/hero/essential.html"
+      )}}

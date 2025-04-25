@@ -1,8 +1,6 @@
-<svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="19.5" cy="2.5" r="2.5" transform="rotate(90 19.5 2.5)" fill="black"/>
-<circle cx="19.5" cy="9.5" r="2.5" transform="rotate(90 19.5 9.5)" fill="black"/>
-<circle cx="19.5" cy="16.5" r="2.5" transform="rotate(90 19.5 16.5)" fill="black"/>
-<line y1="2.85" x2="15" y2="2.85" stroke="black" stroke-width="2.3"/>
-<line y1="9.43203" x2="15" y2="9.43203" stroke="black" stroke-width="2.3"/>
-<line y1="16.0121" x2="15" y2="16.0121" stroke="black" stroke-width="2.3"/>
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20.9959 -0.000200021L20.9959 20.3687L0 20.3687L2.42896e-07 -0.000200272L3.40984 -0.000200231L3.40984 9.93013C3.40984 13.8154 6.55738 16.9629 10.4426 16.9629L10.5574 16.9629C14.4426 16.9629 17.5902 13.8154 17.5902 9.93013L17.5902 -0.000200062L21 -0.000200021L20.9959 -0.000200021Z" fill="black"/>
+<rect x="8.96875" y="-0.000488281" width="3.0624" height="12.9621" fill="black"/>
+<rect x="13.916" y="7.07959" width="2.87276" height="5.67403" transform="rotate(45.2211 13.916 7.07959)" fill="black"/>
+<rect x="5.06445" y="9.10938" width="2.84932" height="7.6777" transform="rotate(-45 5.06445 9.10938)" fill="black"/>
 </svg>

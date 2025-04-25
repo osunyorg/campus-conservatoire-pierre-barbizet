@@ -2,12 +2,15 @@ logo:
   tagline: >-
     <span>Conservatoire Pierre Barbizet Marseille</span>
     <span>Un établissement Campus art Méditerranée</span>
+commons:
+  download:
+    singular_name: Télécharger le livret pédagogique
 cam:
   footer:
     site:
       infos: Accueil, prêt de salles du lundi au samedi 9H00-21H30
     text: >- 
-      Le Campus mer Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture, et soutenu par la Ville de Marseille.
+      Le Campus art Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture, et soutenu par la Ville de Marseille.
 
 
       L’établissement compte trois entités : les Beaux Arts de Marseille, le Conservatoire de Marseille Pierre Barbizet, et l’Institut de formation artistique Marseille-Méditerranée (IFAMM)

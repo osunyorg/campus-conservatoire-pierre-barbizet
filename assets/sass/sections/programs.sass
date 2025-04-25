@@ -4,6 +4,44 @@
     .hero
         .hero-text
             margin-top: 0
+        .buttons
+            display: flex
+            flex-direction: column
+            gap: $spacing-3
+            > a 
+                @extend .button
+        .toc-cta
+            display: block
+            width: auto
+            padding: 0
+            height: auto
+            top: auto
+            position: relative
+            text-align: left
+            margin: 0
+            border-top: none !important
+            button
+                @extend .button
+                display: flex
+                justify-content: space-between
+                align-items: center
+                width: 100%
+                &::after
+                    @include icon-site(toc)
+                    width: auto
+                    height: auto
+                    margin-right: 0
+                    line-height: 1
+        .essential-container
+            .buttons
+                display: none
+    .document-content
+        > .toc-cta
+            display: none
+    @include media-breakpoint-down(desktop)
+        .hero
+            .buttons
+                margin-top: $spacing-4
     @include media-breakpoint-up(desktop)
         .document-content
             .content
@@ -16,6 +54,7 @@
                 .container
                     padding-left: var(--grid-gutter) !important
                     padding-right: var(--grid-gutter) !important
+
 .programs--light
     li
         background: var(--color-accent)
@@ -37,12 +76,13 @@
     .categories
         .programs_category-title
             @include lead
-    .programs.programs--grid
-        @include grid(3, desktop)
-        .program
-            .program-title
-                @include h2
-                margin-bottom: $spacing-3
-            .media
-                img
-                    aspect-ratio: 1
+
+.programs.programs--grid
+    @include grid(3, desktop)
+    .program
+        .program-title
+            @include h2
+            margin-bottom: $spacing-3
+        .media
+            img
+                aspect-ratio: 1
