@@ -8,3 +8,15 @@
     @include in-page-without-sidebar
         &--grid
             @include grid(2)
+
+
+%categorie-tag
+    @extend .button
+    @extend .button--small
+    text-decoration: none !important
+    color: var(--color-text) !important
+
+.post-categories
+    li
+        a
+            @extend %categorie-tag

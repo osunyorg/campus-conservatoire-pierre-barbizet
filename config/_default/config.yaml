@@ -21,6 +21,10 @@ params:
     single:
       taxonomies:
         position: none
+  posts:
+    index:
+      options:
+        more: true
   programs:
     index:
       layout: grid
