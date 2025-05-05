@@ -22,7 +22,11 @@ $icons-site: map-merge($icons-site, ("logo-c": "\e90e"))
 $icons-site: map-merge($icons-site, ("logo-m": "\e90f"))
 $icons-site: map-merge($icons-site, ("logo-p": "\e910"))
 
-@mixin icon-site($icon)
+@mixin icon-site($icon, $non-breaking: false)
     @include icon
-    content: map-get($icons-site, $icon)
     font-family: $font-icons-site
+    @if $non-breaking
+        content: " #{map-get($icons-site, $icon)}"
+        display: inline
+    @else
+        content: map-get($icons-site, $icon)

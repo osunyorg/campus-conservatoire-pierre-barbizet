@@ -1,4 +1,10 @@
 .block-chapter
+    @include in-page-without-sidebar
+        &.block-chapter--accent_background
+            background: season-gradient(90deg)
+            .block-content
+                .text
+                    padding: $spacing-3
     @include in-page-with-sidebar
         &.block-chapter--accent_background
             .block-content

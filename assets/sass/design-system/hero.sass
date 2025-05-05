@@ -1,5 +1,9 @@
 .hero
+    .content
+        .hero-text
+            margin-top: 0
     a[download]
+        white-space: nowrap
         &::after
-            @include icon-site('download')
+            @include icon-site('download', true)
             padding-left: pxToRem(10)
