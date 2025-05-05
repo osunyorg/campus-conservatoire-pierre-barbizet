@@ -49,10 +49,12 @@ items:
       new_tab: false
       children: []
     - title: Théâtre
-      target: "/lenseignement/formations/categories/disciplines/theatre/"
-      kind: url
+      target: "/lenseignement/formations/theatre/"
+      kind: program
       new_tab: false
       children: []
+      path: "/programs/theatre"
+      file: content/fr/programs/theatre/_index.html
     - title: Danse
       target: "/lenseignement/formations/categories/disciplines/danse"
       kind: url
