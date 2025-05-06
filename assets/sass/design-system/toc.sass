@@ -1,13 +1,29 @@
 .toc-content
+    --color-text-alt: var(--color-text)
     .toc-pages
         li
             .active
                 color: $color-text
-                &::after
-                    color: var(--color-accent)
-                    content: "■"
-                    display: inline-block
-                    margin-left: 5px
+
+body:not(.offcanvas-toc)
+    .toc-content
+        --color-text-alt: var(--color-text)
+        @include media-breakpoint-up(desktop)
+            .toc-pages
+                ol
+                    display: block
+                li
+                    margin-top: $spacing-1
+                    border-top: var(--border-width) solid $border-light-color
+                    a
+                        padding-top: $spacing-1
+                    &:last-child 
+                        border-bottom: var(--border-width) solid $border-light-color
+                        a
+                            padding-bottom: $spacing-1
+                    .active
+                        @include h3
+                        // line-height: 1
 
 body.offcanvas-toc
     .toc-container

@@ -47,9 +47,10 @@ design:
     offcanvas: true
 
 programs_categories:
+  - "disciplines/musique/instruments"
+  - "disciplines/musique"
   - "publics/enfants"
   - "publics/adolescentes"
-  - "disciplines/instruments"
   - "formations/enseignement-specialise"
 taxonomies:
   - name: >-
@@ -76,11 +77,17 @@ taxonomies:
     path: "/programs_categories/disciplines"
     categories:
       - permalink: "/lenseignement/formations/categories/instruments/"
-        path: "/programs_categories/disciplines/instruments"
-        slug: "disciplines/instruments"
-        file: "content/fr/programs_categories/disciplines/instruments/_index.html"
+        path: "/programs_categories/disciplines/musique/instruments"
+        slug: "disciplines/musique/instruments"
+        file: "content/fr/programs_categories/disciplines/musique/instruments/_index.html"
         name: >-
           Instruments
+      - permalink: "/lenseignement/formations/categories/musique/"
+        path: "/programs_categories/disciplines/musique"
+        slug: "disciplines/musique"
+        file: "content/fr/programs_categories/disciplines/musique/_index.html"
+        name: >-
+          Musique
 
   - name: >-
       Formations
@@ -106,6 +113,8 @@ meta_description: >-
 
 summary: >-
   <p>L'alto fait partie de la famille des cordes frottées, au même titre que le violon, le violoncelle et la contrebasse. </p>
+
+children:
 
 translationKey: education-program-301cfa75-5d51-40d1-a359-cf673fc59053
 

@@ -6,13 +6,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Qu'enseigne-t-on au CPBM ?
-    target: "/lenseignement/quenseigne-t-on-au-conservatoire/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/lenseignement/quenseigne-t-on-au-conservatoire"
-    file: content/fr/pages/lenseignement/quenseigne-t-on-au-conservatoire/_index.html
   - title: Les disciplines
     target: "/lenseignement/formations/categories/disciplines/"
     kind: url
@@ -49,15 +42,19 @@ items:
       new_tab: false
       children: []
     - title: Théâtre
-      target: "/lenseignement/formations/categories/disciplines/theatre/"
-      kind: url
+      target: "/lenseignement/formations/theatre/"
+      kind: program
       new_tab: false
       children: []
+      path: "/programs/theatre"
+      file: content/fr/programs/theatre/_index.html
     - title: Danse
-      target: "/lenseignement/formations/categories/disciplines/danse"
-      kind: url
+      target: "/lenseignement/formations/danse/"
+      kind: program
       new_tab: false
       children: []
+      path: "/programs/danse"
+      file: content/fr/programs/danse/_index.html
   - title: Les parcours
     target: "/lenseignement/les-parcours/"
     kind: page
