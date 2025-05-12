@@ -60,13 +60,6 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Schéma des études
-      target: "/lenseignement/les-parcours/schema-des-etudes/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/lenseignement/les-parcours/schema-des-etudes"
-      file: content/fr/pages/lenseignement/les-parcours/schema-des-etudes/_index.html
     - title: Éveil artistique
       target: "/lenseignement/les-parcours/eveil-artistique/"
       kind: page
@@ -193,13 +186,6 @@ items:
       children: []
       path: "/pages/le-conservatoire/letablissement/ecole-inclusive"
       file: content/fr/pages/le-conservatoire/letablissement/ecole-inclusive/_index.html
-    - title: International
-      target: "/le-conservatoire/letablissement/international/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/le-conservatoire/letablissement/international"
-      file: content/fr/pages/le-conservatoire/letablissement/international/_index.html
     - title: Partenaires
       target: "/le-conservatoire/letablissement/partenaires/"
       kind: page
