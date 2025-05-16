@@ -1,0 +1,31 @@
+.block-timeline
+    &--horizontal
+        background: season-gradient(90deg)
+        @include media-breakpoint-up(desktop)
+            padding-top: $spacing-2
+            padding-bottom: $spacing-2
+            .top
+                padding-top: $spacing-3
+        .timeline-event
+            .line
+                margin-left: 22px
+                width: calc(100% + var(--grid-gutter) - 17px)
+                &::before
+                    @include icon-site(bullet)
+                    font-size: 25px
+                    background: transparent
+                    top: -14px
+                    left: -17px
+    &--vertical
+        .timeline-event
+            &::after
+                bottom: 0
+                top: 0
+                margin-top: 25px
+            &::before
+                @include icon-site(bullet)
+                font-size: 25px
+                background: transparent
+                top: -14px
+                width: 25px
+                transform: translateX(-8px)
