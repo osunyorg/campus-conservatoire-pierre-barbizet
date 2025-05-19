@@ -80,7 +80,7 @@ window.cpbm.seasons = {
     document.body.style.setProperty('--season-start-color', colors[this.quarter].start);
     document.body.style.setProperty('--season-end-color', colors[this.quarter].end);
     document.body.style.setProperty('--color-accent', colors[this.quarter].accent); // define accent color
-    // document.body.style.setProperty('--color-background-alt', colors[this.quarter].accent + '30'); // define accent color
+    document.body.style.setProperty('--color-background-alt', colors[this.quarter].backgroundAlt); // define accent color
   },
   setCTA: function () {
     var blocks = document.querySelectorAll('.block-call_to_action--accent_background');
