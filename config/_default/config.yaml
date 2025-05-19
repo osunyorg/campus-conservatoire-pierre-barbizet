@@ -18,6 +18,8 @@ params:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/icon.svg'
   pages:
+    index:
+      layout: grid
     single:
       taxonomies:
         position: none
