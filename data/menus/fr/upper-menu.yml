@@ -2,7 +2,7 @@
 title: Menu secondaire
 items:
 - title: Site de l’orchestre Démos
-  target: ''
+  target: https://demos.campus.osuny.site
   kind: url
   new_tab: true
   children: []
