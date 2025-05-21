@@ -12,6 +12,9 @@
         h1 > span
             @include h2
             color: var(--color-text)
+        figure img
+            aspect-ratio: 1
+            object-fit: cover
     @include media-breakpoint-up(desktop)
         .hero
             .content
@@ -26,7 +29,6 @@
     .post-meta
         &, time
             color: var(--color-text)
-
 
 .posts__section,
 .posts_categories__term,
@@ -43,5 +45,16 @@
                     grid-column: 5 / 13
                 .media
                     grid-column: 1 / 5
-                
 
+    // commons
+    .posts
+        .post
+            .media img
+                aspect-ratio: 1
+                object-fit: cover
+            .post-categories li a
+                text-align: left
+        &--list
+            .post
+                padding-bottom: 0
+                margin-bottom: space(9)

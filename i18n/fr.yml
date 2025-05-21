@@ -5,6 +5,9 @@ logo:
 commons:
   download:
     singular_name: Télécharger le livret pédagogique
+  add_to_calendar:
+    title: Ajouter
+  more: Découvrir
 cam:
   footer:
     site:

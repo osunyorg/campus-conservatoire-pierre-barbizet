@@ -46,6 +46,29 @@
                 .media
                     margin-left: offset(4)
                     width: columns(4)
+
+// commons
+.event 
+    .media img
+        aspect-ratio: 1
+        object-fit: cover
+    [class$="-content"]
+        display: flex
+        flex-direction: column
+        .event-categories
+            margin-top: $spacing-3 !important
+            order: 2
+            li:not(:last-child) a::after
+                content: none
+        .more
+            @include body-text
+            text-decoration: underline
+            @include icon(arrow-right-line, after, true)
+                display: inline-block
+                transition: transform 0.3s ease
+    &:hover .more::after
+        transform: translateX($spacing-1)
+
 .block-agenda--list
     @include in-page-without-sidebar
         .top
@@ -65,3 +88,49 @@
             h1 > span
                 @include h2
                 color: var(--color-text)
+            figure
+                &.image-portrait
+                    order: unset
+                @include media-breakpoint-down(desktop)
+                    img
+                        aspect-ratio: 1
+                        object-fit: cover
+        .dropdown-share
+            button
+                border-radius: $btn-border-radius
+                box-shadow: $btn-box-shadow
+        .taxonomies-single a
+            @include body-text
+            text-decoration: none
+            color: var(--color-text)
+    .event-access
+        .event-practicals,
+        .event-slots
+            h2
+                @include h2
+        > div:first-child,
+        > div:last-child
+            border: none
+        .event-summary,
+        .event-time-slot
+            .dropdown-calendar
+                background-color: var(--color-background)
+                button
+                    border-radius: $btn-border-radius
+                    box-shadow: $btn-box-shadow
+                    color: var(--color-text)
+                    padding: space(2) space(4)
+                    text-decoration: none
+                    @include media-breakpoint-up(desktop)
+                        padding: space(2) space(4) space()
+        @include media-breakpoint-up(desktop)
+            .event-slots 
+                display: flex
+                align-items: baseline
+                gap: var(--grid-gutter)
+                .events-slots-title
+                    width: columns(4)
+                ul
+                    width: columns(8)
+                    .date
+                        width: auto
