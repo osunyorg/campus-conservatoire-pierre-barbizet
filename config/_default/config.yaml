@@ -42,6 +42,12 @@ params:
     share_links:
       enabled: false
   image_sizes:
+    blocks:
+      events:
+        list:
+          mobile:   200
+          tablet:   300
+          desktop:  539
     sections:
       home:
         hero:
