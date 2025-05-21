@@ -51,6 +51,12 @@
         .top
             display: flex
             gap: var(--grid-gutter)
+            .block-title
+                a
+                    &::after
+                        opacity: 0
+                    &:hover::after
+                        opacity: 1
             .description
                 margin-top: 0
 .events__page
