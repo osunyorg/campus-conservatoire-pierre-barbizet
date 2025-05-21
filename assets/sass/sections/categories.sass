@@ -8,6 +8,8 @@
     @include in-page-without-sidebar
         &--grid
             @include grid(2)
+    .rich-text
+        margin-top: space(7) !important
 
 
 %categorie-tag
@@ -20,3 +22,9 @@
     li
         a
             @extend %categorie-tag
+
+// page with instrument's illustrations
+.page-categories_with_illustrations
+    .categories--grid
+        .media img
+            object-position: left
