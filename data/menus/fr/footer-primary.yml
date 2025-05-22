@@ -7,9 +7,9 @@ items:
   new_tab: false
   children: []
 - title: Newsletter
-  target: ''
-  kind: blank
-  new_tab: false
+  target: https://996ebeb4.sibforms.com/serve/MUIFAJ42gHYYR9No_QYaDgLgF_guvvA7I08iDqYKoGRyCS00b4CTpphuGojQuF6xFZcU-KgcHNfKgA-SQn7knFuwufKyjnSRk_EfgXgwFLIFIfcO438qVlxQVPZlDm_xDoMYRlFLBa10RjGuqqsqtKwgZ8MRnbScNRunghksSMGbkfy8cnhttAsP8n4RlZIEK-axZT_70ChOss-0?fbclid=IwY2xjawKGs4NleHRuA2FlbQIxMABicmlkETFnTDEwRFVEU3lrQzNpYmRnAR6jESLIkM-3F0JOP3c9YOm7ZEP8xeLC_-FzD9LZzvR9HhjDwU92PfqzCVC2Fw_aem_FPSUKPI2iKb9rzAjuLprEA
+  kind: url
+  new_tab: true
   children: []
 - title: FAQ
   target: ''
