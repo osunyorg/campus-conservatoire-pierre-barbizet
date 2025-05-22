@@ -17,6 +17,9 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/icon.svg'
+  events:
+    share_links:
+      enabled: false
   pages:
     index:
       layout: grid

@@ -85,12 +85,18 @@
                         opacity: 1
             .description
                 margin-top: 0
+
 .events__page
     .hero
         .content
             h1 > span
                 @include h2
                 color: var(--color-text)
+                margin-top: $spacing-2
+            .hero-text
+                justify-content: start
+            .taxonomies-single
+                margin-top: $spacing-2
             figure
                 &.image-portrait
                     order: unset
@@ -98,13 +104,14 @@
                     img
                         aspect-ratio: 1
                         object-fit: cover
-        .dropdown-share
-            button
-                border-radius: $btn-border-radius
-                box-shadow: $btn-box-shadow
+        // .dropdown-share
+        //     button
+        //         border-radius: $btn-border-radius
+        //         box-shadow: $btn-box-shadow
         .taxonomies-single a
             @include body-text
             text-decoration: none
+            font-size: var(--meta-size)
             color: var(--color-text)
     .event-access
         .event-practicals,
@@ -112,6 +119,7 @@
             align-items: baseline
             h2
                 @include h2
+                color: var(--color-text)
         > div:first-child,
         > div:last-child
             border: none
@@ -120,13 +128,15 @@
             .dropdown-calendar
                 background-color: var(--color-background)
                 button
-                    border-radius: $btn-border-radius
-                    box-shadow: $btn-box-shadow
-                    color: var(--color-text)
-                    padding: space(2) space(4)
-                    text-decoration: none
-                    @include media-breakpoint-up(desktop)
-                        padding: space(2) space(4) space()
+                    @extend .button
+                    @extend .button--small
+                    // border-radius: $btn-border-radius
+                    // box-shadow: $btn-box-shadow
+                    // color: var(--color-text)
+                    // padding: space(2) space(4)
+                    // text-decoration: none
+                    // @include media-breakpoint-up(desktop)
+                    //     padding: space(2) space(4) space()
         @include media-breakpoint-up(desktop)
             .event-slots 
                 display: flex
