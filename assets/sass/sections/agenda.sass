@@ -109,6 +109,7 @@
     .event-access
         .event-practicals,
         .event-slots
+            align-items: baseline
             h2
                 @include h2
         > div:first-child,
@@ -129,7 +130,6 @@
         @include media-breakpoint-up(desktop)
             .event-slots 
                 display: flex
-                align-items: baseline
                 gap: var(--grid-gutter)
                 .events-slots-title
                     width: columns(4)
