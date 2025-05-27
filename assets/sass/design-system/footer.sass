@@ -11,11 +11,6 @@ footer#document-footer
             @include body-text
             margin-bottom: $spacing-3
             margin-top: $spacing-3
-    .footer-secondary-menu,
-    .footer-social,
-    .footer-legals
-        li, .nav-legal, .footer-credit
-            display: inline
     .footer-legals
         @include meta
     .footer-campus
@@ -53,6 +48,11 @@ footer#document-footer
         .site, .footer-attached-sites
             flex-shrink: 0
             width: columns(2)
+        .footer-secondary-menu,
+        .footer-social,
+        .footer-legals
+            li, .nav-legal, .footer-credit
+                display: inline
         .footer-primary-menu
             text-align: right
             margin-top: $spacing-4
