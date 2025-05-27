@@ -1,5 +1,6 @@
 .events
     &--agenda
+        --border-width: 0
         .events-date-title, .event-title
             &, &.is-down
                 @include h2
@@ -12,6 +13,10 @@
             .event-hours
                 time:first-child
                     @include h2
+        .events-date-title
+            i
+                display: block
+                font-style: normal
         @include media-breakpoint-up(desktop)
             .events-date-title
                 max-width: offset(3)

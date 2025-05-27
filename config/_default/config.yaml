@@ -20,6 +20,10 @@ params:
   events:
     share_links:
       enabled: false
+    index:
+      archives: true
+      years: true
+      group_by_date: "Monday 2 <i>January 2006</i>"
   pages:
     index:
       layout: grid
