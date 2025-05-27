@@ -11,15 +11,6 @@
             > a 
                 @extend .button
         .toc-cta
-            display: block
-            width: auto
-            padding: 0
-            height: auto
-            top: auto
-            position: relative
-            text-align: left
-            margin: 0
-            border-top: none !important
             button
                 @extend .button
                 display: flex
@@ -51,6 +42,15 @@
         .hero
             .buttons
                 margin-top: $spacing-4
+            .toc-cta
+                background: none
+                padding-left: 0
+                padding-right: 0
+                button
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+                span
+                    text-align: left
     @include media-breakpoint-up(desktop)
         .document-content
             .content
@@ -59,6 +59,17 @@
                 .featured-image
                     &.image-portrait
                         width: columns(4)
+        .hero
+            .toc-cta
+                display: block
+                width: auto
+                padding: 0
+                height: auto
+                top: auto
+                position: relative
+                text-align: left
+                margin: 0
+                border-top: none !important
         .blocks
             .block-gallery--carousel 
                 margin-left: calc(#{offset(-4)} - var(--grid-gutter))
