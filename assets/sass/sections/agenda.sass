@@ -162,10 +162,14 @@
                 gap: var(--grid-gutter)
                 .events-slots-title
                     width: columns(4)
-                ul
+                > ul
                     width: columns(8)
                     .date
                         width: auto
+                .dropdown-menu
+                    min-width: pxToRem(200)
+                    left: auto !important
+                    right: pxToRem(-14) !important
     .event-programme
         .events--agenda
             .events-date-title
