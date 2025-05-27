@@ -9,29 +9,36 @@
         .description
             p
                 @include h5
-    @include in-page-with-sidebar
+    body:not(.full-width) &
         &--accent_background
             .call_to_action
                 background: season-gradient(90deg)
-    @include in-page-without-sidebar
+    body.full-width &
         &--accent_background
             .block-content
-                margin-left: 0
-                margin-right: 0
                 background: season-gradient(90deg)
-                padding: columns(1)
-            .call_to_action--without-image:not(.call_to_action--without-text)
-                > div
-                    display: flex
-                    align-items: end
-                    justify-content: space-between
-                    gap: var(--grid-gutter)
-                    .top
-                        width: offset(7)
-                        // grid-column: 1 / 10
-                    .actions
+                @include media-breakpoint-down(desktop)
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+            @include media-breakpoint-up(desktop)
+                .block-content
+                    margin-left: 0
+                    margin-right: 0
+                    padding: columns(1)
+                .call_to_action--without-image:not(.call_to_action--without-text)
+                    > div
+                        display: flex
                         align-items: end
-                        width: offset(3)
+                        justify-content: space-between
+                        gap: var(--grid-gutter)
+                        .top
+                            width: offset(7)
+                            // grid-column: 1 / 10
+                        .actions
+                            align-items: end
+                            width: offset(3)
     // @for $i from 1 through 30
     //     &:nth-child(#{$i})
     //         --season-start-position: #{60 - $i * 5}%

@@ -48,9 +48,12 @@ header#document-header
                     span:first-of-type
                         text-transform: none
             .menu
+                border-bottom: none
                 .nav-level-1
-                    > li:nth-last-child(2)
-                        > a
+                    > li
+                        &.has-children > a::after
+                            content: url("/assets/images/icons/arrow-down.svg")
+                        &:nth-last-child(2) > a
                             display: block
                             margin-bottom: pxToRem(17)
                             margin-top: pxToRem(17)

@@ -7,7 +7,7 @@
     </div>
     <div class="footer-site">
       {{ partial "footer/site.html" }}
-      {{ i18n "cam.footer.site.infos" }}
+      <p>{{ i18n "cam.footer.site.infos" }}</p>
     </div>
   </div>
   <div class="footer-attached-sites">
@@ -25,21 +25,13 @@
   <div class="footer-secondary-menu">
     {{ partial "commons/menu.html" (dict "kind" "footer-secondary" ) }}
   </div>
+  {{ partial "footer/legals.html" . }}
+  {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+    <div class="footer-search">
+      {{ partial "commons/search/button.html" "footer" }}
+    </div>
+  {{ end }}
   <div class="footer-social">
     {{ partial "footer/social.html" . }}
   </div>
 </div>
-
-<div class="container footer__secondary">
-  <div class="footer-legals">
-    {{ partial "footer/legals.html" . }}
-    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
-      <div class="footer-search">
-        {{ partial "commons/search/button.html" "footer" }}
-      </div>
-    {{ end }}
-  </div>
-
-  {{ partial "footer/credit.html" . }}
-</div>
-

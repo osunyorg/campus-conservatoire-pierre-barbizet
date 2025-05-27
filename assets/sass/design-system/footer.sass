@@ -11,8 +11,10 @@ footer#document-footer
             @include body-text
             margin-bottom: $spacing-3
             margin-top: $spacing-3
-    .footer-legals
-        @include meta
+    .nav-legal
+        --meta-size: #{min-font-size(14)}
+        a
+            @include meta
     .footer-campus
         padding-right: columns(2)
         a[target="_blank"]
@@ -22,6 +24,8 @@ footer#document-footer
             @include meta
             margin-top: $spacing-4
             a
+                @include icon(arrow-right-line, after, true)
+                    font-size: $body-size
                 display: block
     .footer-attached-sites
         h3, address, [itemprop="telephone"]
@@ -50,7 +54,7 @@ footer#document-footer
             width: columns(2)
         .footer-secondary-menu,
         .footer-social,
-        .footer-legals
+        .nav-legal
             li, .nav-legal, .footer-credit
                 display: inline
         .footer-primary-menu
@@ -63,17 +67,26 @@ footer#document-footer
             justify-content: space-between
             align-items: baseline !important
             flex-wrap: wrap
+            column-gap: $spacing-3
         .footer-secondary-menu
             @include meta
             ul
                 display: flex
                 align-items: baseline
-                gap: $spacing-2
-        .footer-legals
-            --meta-size: #{min-font-size(14)}
+                gap: space(10)
+        .nav-legal
             display: flex
             align-items: baseline
+            gap: space(10)
+            margin-left: auto
+        @include media-breakpoint-down(xl)
             .nav-legal
-                gap: $spacing-2
-                display: flex
-                align-items: baseline
+                margin-left: unset
+                order: 3
+    @include media-breakpoint-down(desktop)
+        .site
+            > * + *
+                margin-top: $spacing-1
+        .footer-primary-menu
+            span, a, button
+                @include h3
