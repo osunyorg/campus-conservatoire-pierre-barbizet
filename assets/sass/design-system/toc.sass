@@ -25,7 +25,37 @@ body:not(.offcanvas-toc)
                         @include h2
                         // line-height: 1
 
+main#main
+    .toc-cta
+        button.toc-cta-title
+            @extend .button
+            display: flex
+            justify-content: space-between
+            align-items: center
+            width: 100%
+            &::after
+                @include icon-site(toc)
+                width: auto
+                height: auto
+                margin-right: 0
+                line-height: 1
+                margin-left: $spacing-2
+        @include media-breakpoint-down(desktop)
+            background: none
+            padding-left: 0
+            padding-right: 0
+            border-top: 0
+            button.toc-cta-title
+                padding-left: var(--grid-gutter)
+                padding-right: var(--grid-gutter)
+                border-bottom-right-radius: 0
+                border-bottom-left-radius: 0
+            span
+                text-align: left
+
 body.offcanvas-toc
     .toc-container
         .toc-title, button
-            line-height: $spacing-3
+            line-height: $spacing-5
+            @include media-breakpoint-down(desktop)
+                line-height: $spacing-3

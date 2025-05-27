@@ -10,20 +10,9 @@
             gap: $spacing-3
             > a 
                 @extend .button
-        .toc-cta
-            button
-                @extend .button
-                display: flex
-                justify-content: space-between
-                align-items: center
-                width: 100%
-                &::after
-                    @include icon-site(toc)
-                    width: auto
-                    height: auto
-                    margin-right: 0
-                    line-height: 1
-                    margin-left: $spacing-2
+            .toc-cta
+                button.toc-cta-title
+                    @extend .button
         .essential-container
             .buttons
                 display: none
@@ -42,15 +31,6 @@
         .hero
             .buttons
                 margin-top: $spacing-4
-            .toc-cta
-                background: none
-                padding-left: 0
-                padding-right: 0
-                button
-                    padding-left: var(--grid-gutter)
-                    padding-right: var(--grid-gutter)
-                span
-                    text-align: left
     @include media-breakpoint-up(desktop)
         .document-content
             .content
