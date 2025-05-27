@@ -9,6 +9,11 @@
         .description
             p
                 @include h5
+    @include media-breakpoint-down(desktop)
+        &--accent_background
+            background: season-gradient(90deg)
+        .btn, .button
+            text-align: left
     @include in-page-with-sidebar
         &--accent_background
             .call_to_action
