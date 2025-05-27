@@ -1,3 +1,10 @@
+%categorie-tag
+    @extend .button
+    @extend .button--small
+    text-decoration: none !important
+    color: var(--color-text) !important
+    font-size: var(--btn-font-size) !important
+
 .category-item
     .media
         .is-svg
@@ -11,14 +18,7 @@
     .rich-text
         margin-top: space(7) !important
 
-
-%categorie-tag
-    @extend .button
-    @extend .button--small
-    text-decoration: none !important
-    color: var(--color-text) !important
-
-.post-categories
+.post-categories, .event-categories, .taxonomies-single
     li
         a
             @extend %categorie-tag
