@@ -19,6 +19,7 @@ footer#document-footer
     .footer-legals
         @include meta
     .footer-campus
+        padding-right: columns(2)
         a[target="_blank"]
             &::before
                 display: none
@@ -40,6 +41,10 @@ footer#document-footer
             content: url("/assets/images/icons/facebook.svg")
         li.instagram::after
             content: url("/assets/images/icons/instagram.svg")
+    .footer-primary-menu
+        a
+            &::before
+                display: none !important
     @include media-breakpoint-up(desktop)
         padding-top: pxToRem(250)
         .container
@@ -52,7 +57,7 @@ footer#document-footer
             text-align: right
             margin-top: $spacing-4
             li + li 
-                margin-top: 0
+                margin-top: $spacing-2
         .footer__secondary
             display: flex
             justify-content: space-between
