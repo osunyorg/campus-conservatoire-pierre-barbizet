@@ -1,9 +1,38 @@
 .page__home
     // HERO
+    .hero
+        --color-text: #{$color-text-light}
+        padding-bottom: 0
+        > .container
+            align-items: end
+            display: flex
+            height: 60vh
+            max-height: calc(95vh - var(--header-height))
+            padding-bottom: 0
+            position: relative
+        .hero-text
+            position: relative
+            z-index: 2
+            padding-bottom: $spacing-4
+        figure
+            @include absolute-cover
+            @include cover-gradient
+            z-index: 0
+            picture
+                @include absolute-cover
+                img
+                    height: 100%
+                    object-fit: cover
+    @include media-breakpoint-down(desktop)
+        .hero
+            .hero-text
+                margin-bottom: 0
+                padding-bottom: $spacing-3
+            figure
+                margin-left: 0
+                margin-right: 0
     @include media-breakpoint-up(desktop)
         .hero
-            --color-text: #{$color-text-light}
-            padding-bottom: 0
             > .container
                 align-items: end
                 display: flex
@@ -11,23 +40,11 @@
                 max-height: calc(95vh - var(--header-height))
                 padding-bottom: 0
                 position: relative
-            .hero-text
-                position: relative
-                z-index: 2
-                padding-bottom: $spacing-4
             figure
-                @include absolute-cover
-                @include cover-gradient
                 left: 50%
                 transform: translateX(-50%)
                 width: 100vw
-                z-index: 0
-                picture
-                    @include absolute-cover
-                    img
-                        height: 100%
-                        object-fit: cover
-
+                right: auto
     // BLOCKS
     .blocks
         .block
