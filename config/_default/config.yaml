@@ -1,4 +1,6 @@
-theme: osuny
+theme: 
+  - osuny-suggestions
+  - osuny
 _merge: deep
 params:
   cam:
