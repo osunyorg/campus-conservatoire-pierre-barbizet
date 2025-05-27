@@ -19,7 +19,8 @@
                 font-style: normal
         @include media-breakpoint-up(desktop)
             .events-date-title
-                max-width: offset(3)
+                &, &.is-down
+                    max-width: offset(3)
 
     &--list
         .event
@@ -165,3 +166,7 @@
                     width: columns(8)
                     .date
                         width: auto
+    .event-programme
+        .events--agenda
+            .events-date-title
+                background: var(--color-background)
