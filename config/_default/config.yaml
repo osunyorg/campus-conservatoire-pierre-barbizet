@@ -50,6 +50,12 @@ params:
         logo: false
     share_links:
       enabled: false
+  organizations:
+    single:
+      backlinks: true
+  persons:
+    single:
+      backlinks: true
   image_sizes:
     blocks:
       events:
