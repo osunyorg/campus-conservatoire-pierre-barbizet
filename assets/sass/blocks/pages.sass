@@ -5,4 +5,7 @@
             .page-title
                 @include h2
                 a
-                    @include arrow-right-hover
+                    &:where(:not(:hover))
+                        &::after
+                            opacity: 0
+                        
