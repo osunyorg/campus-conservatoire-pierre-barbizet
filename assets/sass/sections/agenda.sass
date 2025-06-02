@@ -9,19 +9,29 @@
             color: var(--color-text)
         .event-hours
             @include h5
-        .event:not(.event--child)
+            span
+                @include h2
+        .event
             .event-hours
                 time:first-child
                     @include h2
+                    + time
+                        @include body-text
         .events-date-title
             i
                 display: block
                 font-style: normal
         @include media-breakpoint-up(desktop)
-            .events-date-title
-                &, &.is-down
-                    max-width: offset(3)
-
+            .event
+                .events-date-title
+                    &, &.is-down
+                        max-width: offset(3)
+                .media
+                    width: columns(4)
+                &.event--child
+                    padding-left: columns(2)
+                    .media
+                        width: offset(2)
     &--list
         .event
             border: none !important
@@ -121,10 +131,6 @@
                     img
                         aspect-ratio: 1
                         object-fit: cover
-        // .dropdown-share
-        //     button
-        //         border-radius: $btn-border-radius
-        //         box-shadow: $btn-box-shadow
         .taxonomies-single a
             @include body-text
             text-decoration: none
@@ -149,13 +155,6 @@
                 button
                     @extend .button
                     @extend .button--small
-                    // border-radius: $btn-border-radius
-                    // box-shadow: $btn-box-shadow
-                    // color: var(--color-text)
-                    // padding: space(2) space(4)
-                    // text-decoration: none
-                    // @include media-breakpoint-up(desktop)
-                    //     padding: space(2) space(4) space()
         @include media-breakpoint-up(desktop)
             .event-slots 
                 display: flex
@@ -173,4 +172,15 @@
     .event-programme
         .events--agenda
             .events-date-title
-                background: var(--color-background)
+                // background: var(--color-background)
+
+.calendar-month
+    caption
+        h2
+            a
+                @include h3
+                color: var(--color-text) !important
+    a
+        --btn-background: var(--color-text)
+        --btn-hover-background: var(--color-accent)
+        --btn-color: var(--color-background)
