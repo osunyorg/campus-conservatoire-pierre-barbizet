@@ -1,0 +1,12 @@
+.siblings-navigation
+    border-top: 0
+    ul
+        li
+            a
+                span
+                    @include body-text
+                    text-transform: lowercase
+                    text-decoration: underline
+                    &::after, &:before
+                        position: relative
+                        display: inline-block

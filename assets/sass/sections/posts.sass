@@ -17,10 +17,13 @@
             object-fit: cover
     @include media-breakpoint-up(desktop)
         .hero
+            margin-bottom: 0
             .content
                 figure
                     width: columns(4)
                     order: -1
+            .taxonomies-single
+                margin-top: $spacing-3
         .post-infos
             display: none
 
