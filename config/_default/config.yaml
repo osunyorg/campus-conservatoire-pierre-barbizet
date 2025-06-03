@@ -9,13 +9,6 @@ params:
     position: hero
   search:
     active: true
-    suggestions:
-      fr:
-        - Reprendre des cours de musique
-        - Rejoindre une chorale
-        - Rejoindre un orchestre
-        - Inscrire mon enfant
-        - Faire de la danse
   logo:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/icon.svg'
@@ -36,6 +29,10 @@ params:
     index:
       options:
         more: true
+    single:
+      taxonomies:
+        show_name: false
+        position: hero
   programs:
     index:
       layout: grid
@@ -44,7 +41,7 @@ params:
         summary: true
     single:
       taxonomies: 
-        display: false
+        show_name: false
       options:
         diploma_certification: false
         logo: false
