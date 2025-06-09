@@ -1,9 +1,13 @@
 %categorie-tag
     @extend .button
-    @extend .button--small
     text-decoration: none !important
     color: var(--color-text) !important
     font-size: var(--btn-font-size) !important
+    line-height: var(--btn-line-height) !important
+
+%categorie-tag--small
+    @extend %categorie-tag
+    @extend .button--small
 
 .category-item
     .media
@@ -16,10 +20,18 @@
         &--grid
             @include grid(2)
 
-.post-categories, .posts-taxonomies, .event-categories, .events-taxonomies
+.post-categories,
+.posts-taxonomies,
+.event-categories,
+.events-taxonomies,
+.taxonomies-single.without-label
+    display: flex
+    flex-wrap: wrap
+    gap: $spacing-1
     li
         a
             @extend %categorie-tag
+            display: block !important
 
 .categories--grid
     .rich-text
