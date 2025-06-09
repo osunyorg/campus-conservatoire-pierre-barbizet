@@ -84,9 +84,19 @@ footer#document-footer
                 margin-left: unset
                 order: 3
     @include media-breakpoint-down(desktop)
+        .footer-logo
+            a
+                @include h4
         .site
             > * + *
                 margin-top: $spacing-1
         .footer-primary-menu
             span, a, button
                 @include h3
+        .container
+            + .container
+                margin-top: $spacing-3
+            .nav-legal
+                margin-top: $spacing-3
+            .footer-social
+                margin-top: 0
