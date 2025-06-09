@@ -187,12 +187,25 @@
 .agenda-filters
     .dropdown
         > button
-            @extend %button-dropdown
-    .dates-filters
-        .slider
-            .slider-arrows
-                top: 0
+            @include button-dropdown
     .calendar-month
         h2
             a
                 @include h5
+    @include media-breakpoint-down(desktop)
+        .offcanvas-content
+            .dropdown
+                > button, .extendable
+                    background: none
+                    // padding: 0
+                    box-shadow: none
+                    &::before
+                        display: none
+                .extendable
+                    ul
+                        padding-left: $spacing-2
+    @include media-breakpoint-up(desktop)
+        .dates-filters
+            .slider
+                .slider-arrows
+                    top: 0
