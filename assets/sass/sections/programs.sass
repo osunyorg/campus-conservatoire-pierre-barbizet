@@ -88,7 +88,14 @@
     .program
         .program-title
             @include h2
-            margin-bottom: $spacing-3
         .media
             img
                 aspect-ratio: 1
+    @include media-breakpoint-down(desktop)
+        .program
+            .media
+                margin-bottom: $spacing-2
+    @include media-breakpoint-up(desktop)
+        .program
+            .program-title
+                margin-bottom: $spacing-3
