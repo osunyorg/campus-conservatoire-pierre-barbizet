@@ -170,8 +170,15 @@
                     right: pxToRem(-14) !important
     .event-programme
         .events--agenda
-            .events-date-title
-                // background: var(--color-background)
+            @include media-breakpoint-up(desktop)
+                .event
+                    .events-date-title
+                        &, &.is-down
+                            max-width: offset(3)
+                    .media
+                        width: columns(4)
+                    &.event--child
+                        padding-left: offset(3)
 
 .calendar-month
     caption
