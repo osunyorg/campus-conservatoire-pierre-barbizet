@@ -32,6 +32,10 @@
                     padding-left: columns(2)
                     .media
                         width: offset(2)
+                    &:not(.event--with-image)
+                        // padding-left: offset(2)
+                        .event-content
+                            margin-left: 0
     &--list
         .event
             border: none !important
