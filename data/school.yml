@@ -1,11 +1,11 @@
 ---
-name: "Conservatoire Pierre Barbizet"
+name: "Beaux-Arts de Marseille"
 address: >-
-  2 Pl. Auguste et François Carli
-zipcode: "13001"
-city: "Marseille"
+  184 Avenue de Luminy
+zipcode: "13288"
+city: "Marseille Cedex 9"
 country: "France"
-phone: ""
+phone: "04 91 82 83 10"
 url: ""
 contact_details:
   postal_address:
@@ -13,13 +13,13 @@ contact_details:
       address_name: >-
         
       address: >-
-        2 Pl. Auguste et François Carli
+        184 Avenue de Luminy
       address_additional: >-
         
       zipcode: >-
-        13001
+        13288
       city: >-
-        Marseille
+        Marseille Cedex 9
       country:
         name: >-
           France
@@ -31,11 +31,25 @@ contact_details:
       latitude: 
       longitude: 
     text: >-
-      2 Pl. Auguste et François Carli 13001 Marseille FRANCE
+      184 Avenue de Luminy 13288 Marseille Cedex 9 FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">2 Pl. Auguste et François Carli</span> <span itemprop="postalCode">13001</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Avenue de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille Cedex 9</span> <span itemprop="addressCountry">FRANCE</span></address>
+  phone_numbers:
+    phone:
+      label: >-
+        04 91 82 83 10
+      value: >-
+        tel:0491828310
 
 logo:
-  id: "3f86bc78-c5c5-40e7-9e98-c2212d218e21"
-roles: []
+  id: "501ebdb0-4f95-413d-845c-0afc8e7d467d"
+administrators:
+  - "aure-de-thieulloy"
+administrators_description:
+  "aure-de-thieulloy": >-
+    Service du parcours d'entrée
+roles:
+  - title: >-
+      Service du parcours d'entrée
+    persons:
 ---
