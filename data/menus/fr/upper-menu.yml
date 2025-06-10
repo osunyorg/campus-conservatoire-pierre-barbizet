@@ -7,7 +7,7 @@ items:
   new_tab: true
   children: []
 - title: Espace Élèves et Enseignants
-  target: ''
+  target: https://marseille.rhapsodie.fr/
   kind: url
   new_tab: true
   children: []
