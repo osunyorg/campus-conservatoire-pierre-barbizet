@@ -10,6 +10,9 @@ commons:
   more: Découvrir
   search:
     title: Recherche
+events:
+  item:
+    federated: "Événement du <span>{{ . }}</span>"
 cam:
   footer:
     site:

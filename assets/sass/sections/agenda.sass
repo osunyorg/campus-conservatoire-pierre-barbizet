@@ -7,6 +7,7 @@
                 color: var(--color-text)
         .event-subtitle
             color: var(--color-text)
+            margin-top: $spacing-1
         .event-hours
             @include h5
             span
@@ -23,6 +24,7 @@
                 font-style: normal
         @include media-breakpoint-up(desktop)
             .event
+                padding-left: offset(4)
                 .events-date-title
                     &, &.is-down
                         max-width: offset(3)
@@ -30,6 +32,7 @@
                     width: columns(4)
                 &.event--child
                     padding-left: columns(2)
+                    margin-left: offset(4)
                     .media
                         width: offset(2)
                     &:not(.event--with-image)
@@ -221,3 +224,39 @@
                 .slider-arrows
                     .slider-arrow
                         top: 0
+
+
+// Federation
+.event
+    &.is-federated
+        background: $color-campus
+
+.events--agenda
+    .event.is-federated
+        margin-left: var(--grid-gutter-negative)
+        margin-right: var(--grid-gutter-negative)
+        border-left: var(--grid-gutter) solid transparent
+        border-right: var(--grid-gutter) solid transparent
+        // .event-hours
+        //     position: relative
+        //     margin-top: 0
+        //     span
+        //         position: relative
+        //         top: auto !important
+        .event-federation
+            background: var(--color-background)
+            align-self: start
+            padding: space(1) space(2)
+            margin-bottom: $spacing-2
+        @include media-breakpoint-down(desktop)
+            padding-bottom: var(--grid-gutter)
+        @include media-breakpoint-up(desktop)
+            padding-top: 0 !important
+            .event-content
+                padding-top: $spacing-3
+                padding-bottom: $spacing-3
+            // .event-federation
+            //     position: absolute
+            //     left: 0
+            //     padding-left: $spacing-3
+            //     max-width: columns(3)
