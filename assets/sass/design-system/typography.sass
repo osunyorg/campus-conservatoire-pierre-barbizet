@@ -17,6 +17,12 @@ a,
 .button
     box-shadow: $btn-box-shadow
 
+.button--accent,
+.button-accent // Legacy
+    @extend .button
+    --btn-color: var(--color-text)
+    --btn-background: #{$color-accent}
+
 @mixin button-dropdown
     --dropdown-background: var(--color-background)
     &[aria-expanded="true"]
