@@ -1,9 +1,9 @@
 ---
-name: "Beaux-Arts de Marseille"
+name: "Campus art Méditerranée"
 address: >-
-  184 Avenue de Luminy
-zipcode: "13288"
-city: "Marseille Cedex 9"
+  184 avenue de Luminy
+zipcode: "13009"
+city: "Marseille"
 country: "France"
 phone: "04 91 82 83 10"
 url: ""
@@ -13,13 +13,13 @@ contact_details:
       address_name: >-
         
       address: >-
-        184 Avenue de Luminy
+        184 avenue de Luminy
       address_additional: >-
         
       zipcode: >-
-        13288
+        13009
       city: >-
-        Marseille Cedex 9
+        Marseille
       country:
         name: >-
           France
@@ -31,9 +31,9 @@ contact_details:
       latitude: 
       longitude: 
     text: >-
-      184 Avenue de Luminy 13288 Marseille Cedex 9 FRANCE
+      184 avenue de Luminy 13009 Marseille FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Avenue de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille Cedex 9</span> <span itemprop="addressCountry">FRANCE</span></address>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 avenue de Luminy</span> <span itemprop="postalCode">13009</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
   phone_numbers:
     phone:
       label: >-
@@ -42,14 +42,6 @@ contact_details:
         tel:0491828310
 
 logo:
-  id: "501ebdb0-4f95-413d-845c-0afc8e7d467d"
-administrators:
-  - "aure-de-thieulloy"
-administrators_description:
-  "aure-de-thieulloy": >-
-    Service du parcours d'entrée
-roles:
-  - title: >-
-      Service du parcours d'entrée
-    persons:
+  id: "524c45d5-81bb-438e-a3ef-f0065ab178b3"
+roles: []
 ---
