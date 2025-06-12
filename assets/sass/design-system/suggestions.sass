@@ -1,11 +1,14 @@
 #search
-    .pagefind-ui
-        @include container
-    .search__close
-        right: grid-external-space()
     .suggestions
         &__tabs
             button
                 @extend .button
                 &[aria-selected="true"]
                     background: var(--color-accent)
+    .pagefind-ui
+        &__button 
+            box-shadow: none
+    @include media-breakpoint-up(desktop)
+        .pagefind-ui
+            &__message
+                top: pxToRem(130)
