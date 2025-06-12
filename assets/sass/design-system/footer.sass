@@ -79,6 +79,9 @@ footer#document-footer
             align-items: baseline
             gap: space(10)
             margin-left: auto
+        .footer-campus
+            > h3
+                display: none
         @include media-breakpoint-down(xl)
             .nav-legal
                 margin-left: unset
@@ -100,3 +103,30 @@ footer#document-footer
                 margin-top: $spacing-3
             .footer-social
                 margin-top: 0
+        .footer-campus
+            margin-top: 0
+        .footer-attached-sites,
+        .footer-campus
+            padding-right: 0
+            > h3
+                @include h4
+                @include icon(arrow-down-line, after)
+                display: flex
+                justify-content: space-between
+                border-bottom: 1px solid var(--color-border)
+                padding-bottom: $spacing-2
+                + .extendable
+                    display: none
+                    li
+                        display: inline
+                        padding-left: 0
+                        white-space: initial
+                        > a, > span
+                            display: inline-block
+                // When expanded
+                &[aria-expanded="true"]
+                    @include icon(arrow-up-line, after)
+                    + .extendable
+                        display: block
+            .extendable
+                margin-top: $spacing-3

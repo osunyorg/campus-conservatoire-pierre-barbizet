@@ -11,6 +11,10 @@ header#document-header
                     @extend .button--small
                     font-size: var(--h5-size)
                     display: inline
+        a, span
+            &[aria-expanded]
+                @include icon(arrow-down-line, after)
+                    font-size: pxToRem(25) !important
     .tagline
         a
             text-decoration: none !important
@@ -54,8 +58,6 @@ header#document-header
                 border-bottom: none
                 .nav-level-1
                     > li
-                        &.has-children > a::after
-                            content: url("/assets/images/icons/arrow-down.svg")
                         &:nth-last-child(2) > a
                             display: block
                             margin-bottom: pxToRem(17)
