@@ -20,15 +20,15 @@ params:
       years: true
       group_by_date: "Monday 2 <i>January 2006</i>"
   pages:
+    layouts:
+      grid:
+        more: true
     index:
       layout: grid
     single:
       taxonomies:
         position: none
   posts:
-    index:
-      options:
-        more: true
     single:
       taxonomies:
         show_name: false
