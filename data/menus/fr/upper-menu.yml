@@ -2,7 +2,7 @@
 title: Menu secondaire
 items:
 - title: Site de l’orchestre Démos
-  target: https://demos.conservatoiredemarseille.fr
+  target: "/le-conservatoire/laction-culturelle/lorchestre-demos/"
   kind: url
   new_tab: true
   children: []
