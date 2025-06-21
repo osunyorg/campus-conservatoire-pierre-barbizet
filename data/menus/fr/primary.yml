@@ -67,7 +67,7 @@ items:
       children: []
       path: "/pages/lenseignement/les-parcours/eveil-artistique"
       file: content/fr/pages/lenseignement/les-parcours/eveil-artistique/_index.html
-    - title: Classes à horaires aménagées
+    - title: Classes à horaires aménagés
       target: "/lenseignement/les-parcours/classes-a-horaires-amenagees/"
       kind: page
       new_tab: false
