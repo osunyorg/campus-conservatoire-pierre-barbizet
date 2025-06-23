@@ -23,6 +23,11 @@
                 img
                     height: 100%
                     object-fit: cover
+            figcaption
+                position: absolute
+                top: 100%
+                right: 0
+                left: auto
     @include media-breakpoint-down(desktop)
         .hero
             .hero-text
@@ -33,6 +38,11 @@
             figure
                 margin-left: 0
                 margin-right: 0
+                figcaption
+                    top: auto
+                    bottom: 0
+                    background: transparent
+                    color: white
     @include media-breakpoint-up(desktop)
         .hero
             margin-top: -1px // Avoid white line under header
@@ -48,6 +58,12 @@
                 transform: translateX(-50%)
                 width: 100vw
                 right: auto
+                figcaption
+                    &::before
+                        padding-left: $spacing-2
+                        padding-right: $spacing-2
+                    .credit
+                        padding-right: $spacing-4
     // BLOCKS
     .blocks
         .block
