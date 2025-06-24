@@ -5,14 +5,14 @@ html
 a,
 .link
     &[target="_blank"]:not(.icon, [download]),
-        &:not([href^="/"])
-            &::after
-                display: none
-            &::before
-                @include icon-site('external-arrow')
-                font-size: 0.9em
-                line-height: 1
-                padding-right: space(2)
+        // &:not([href^="/"])
+        &::after
+            display: none
+        &::before
+            @include icon-site('external-arrow')
+            font-size: 0.9em
+            line-height: 1
+            padding-right: space(2)
 
 .button
     box-shadow: $btn-box-shadow
