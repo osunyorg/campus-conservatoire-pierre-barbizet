@@ -154,8 +154,7 @@
         > div:first-child,
         > div:last-child
             border: none
-        .event-summary,
-        .event-time-slot
+        .event-summary
             .dropdown-calendar
                 background-color: var(--color-background)
                 button
@@ -165,10 +164,14 @@
             .event-slots 
                 display: flex
                 gap: var(--grid-gutter)
+                flex-wrap: wrap
                 .events-slots-title
                     width: columns(4)
+                .event-summary,
                 > ul
                     width: columns(8)
+                > ul
+                    margin-left: offset(4)
                     .date
                         width: auto
                 .dropdown-menu
