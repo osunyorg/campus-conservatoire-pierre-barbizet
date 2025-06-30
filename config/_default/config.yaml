@@ -12,6 +12,9 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: '/assets/images/icon.svg'
+  home:
+    head:
+      title: site
   events:
     share_links:
       enabled: false
