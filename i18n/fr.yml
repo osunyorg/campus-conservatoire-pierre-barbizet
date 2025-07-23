@@ -18,13 +18,13 @@ cam:
     site:
       infos: Accueil, prêt de salles du lundi au samedi 9H00-21H30
     text: >- 
-      Le Campus art Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture, et soutenu par la Ville de Marseille.
+      Campus art Méditerranée est un établissement public de coopération culturelle agrée par le ministère de la Culture et soutenu par la ville de Marseille et le ministère de la Culture.
 
 
       L’établissement compte trois entités : les Beaux Arts de Marseille, le Conservatoire de Marseille Pierre Barbizet, et l’Institut de formation artistique Marseille-Méditerranée (IFAMM)
 
 
-      <a href="" rel="noopener noreferrer" target="_blank" title="Visiter le site du Campus art Méditerranée">Site du Campus art Méditerranée</a>
+      <a href="https://www.campusartmediterranee.fr/" rel="noopener noreferrer" target="_blank" title="Visiter le site du Campus art Méditerranée">Site du Campus art Méditerranée</a>
       <a href="" rel="noopener noreferrer" target="_blank" title="Visiter le site des Beaux Arts de Marseille">Site des Beaux Arts de Marseille</a>
   link:
     title: Visiter le site Campus Art Méditerranée

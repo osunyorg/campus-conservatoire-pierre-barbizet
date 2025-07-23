@@ -44,6 +44,14 @@ footer#document-footer
         a
             &::before
                 display: none !important
+    .footer__supports ul
+        align-items: flex-start
+        display: flex
+        gap: $spacing-4
+        img
+            height: pxToRem(50)
+        li + li
+            margin-top: 0
     @include media-breakpoint-up(desktop)
         padding-top: pxToRem(250)
         .container
@@ -130,3 +138,5 @@ footer#document-footer
                         display: block
             .extendable
                 margin-top: $spacing-3
+        .footer__supports ul
+            margin-top: space(8)

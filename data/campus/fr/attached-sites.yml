@@ -11,16 +11,3 @@
     phone: 
       value: tel:0491942248
       label: 04 91 94 22 48
-- name: Chape
-  postal_address:
-    data:
-      address: >-
-        49 rue Chape
-      zipcode: >-
-        13004
-      city: >-
-        Marseille
-  phone_numbers:
-    phone: 
-      value: tel:0491559980
-      label: 04 91 55 99 80
