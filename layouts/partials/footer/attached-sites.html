@@ -1,6 +1,6 @@
 {{ $campus := index site.Data.campus (printf "%s" site.Language) }}
 {{ with index $campus "attached-sites" }}
-  <h3 aria-expanded="false" aria-controls="footer-attached-sites">Annexes</h3>
+  <h3 aria-expanded="false" aria-controls="footer-attached-sites">Annexe</h3>
   <div id="footer-attached-sites" class="extendable" data-extendable-close-siblings="true" data-extendable-auto-close="true">
     {{ range . }}
       <div itemscope itemtype="https://schema.org/Organization">
