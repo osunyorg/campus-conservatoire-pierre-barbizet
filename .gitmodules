@@ -4,3 +4,6 @@
 [submodule "themes/osuny-suggestions"]
 	path = themes/osuny-suggestions
 	url = git@github.com:osunyorg/osuny-suggestions.git
+[submodule "themes/osuny-campus-art-mediterrannee-footer"]
+	path = themes/osuny-campus-art-mediterrannee-footer
+	url = git@github.com:osunyorg/osuny-campus-art-mediterrannee-footer.git
