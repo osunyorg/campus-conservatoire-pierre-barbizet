@@ -1,12 +1,10 @@
 {{ $file := "/assets/images/icons/logo-campus.svg" }}
 <h3 aria-expanded="false" aria-controls="footer-campus">En savoir plus sur le Campus art Méditerranée</h3>
 <div id="footer-campus" class="extendable" data-extendable-close-siblings="true" data-extendable-auto-close="true">
-  <a href="{{ site.Params.cam.url }}" rel="noopener noreferrer" target="_blank" title="{{ i18n "cam.link.title" }}">
-    {{ if $file }}
-      {{ $fileDimensions := partial "GetImageDimensions" (dict "context" . "file" $file "static" true) }}
-      <img src="{{ $file }}" alt="{{ site.Title }}" height="{{ index $fileDimensions 1 }}" width="{{ index $fileDimensions 0 }}">
-    {{ end }}
-  </a>
+  {{ if $file }}
+    {{ $fileDimensions := partial "GetImageDimensions" (dict "context" . "file" $file "static" true) }}
+    <img src="{{ $file }}" alt="{{ site.Title }}" height="{{ index $fileDimensions 1 }}" width="{{ index $fileDimensions 0 }}">
+  {{ end }}
 
   <div class="rich-text">
     {{ i18n "cam.footer.text" | markdownify }}
