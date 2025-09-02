@@ -13,6 +13,8 @@ commons:
 events:
   item:
     federated: "Événement du <span>{{ . }}</span>"
+  archives:
+    latest: Événements passés
 cam:
   footer:
     site:
