@@ -23,6 +23,11 @@ footer#document-footer
         .rich-text
             @include meta
             margin-top: $spacing-4
+            p
+                a
+                    &:after
+                        content: " ↗"
+                        display: inline-block
             ul
                 li
                     margin: 0
