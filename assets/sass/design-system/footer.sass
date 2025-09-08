@@ -23,10 +23,13 @@ footer#document-footer
         .rich-text
             @include meta
             margin-top: $spacing-4
-            a
-                @include icon(arrow-right-line, after, true)
-                    font-size: $body-size
-                display: block
+            ul
+                margin-top: $spacing-3
+                li
+                    margin: 0
+                    a
+                        @include icon(arrow-right-line, after, true)
+                            font-size: $body-size
     .footer-attached-sites
         h3, address, [itemprop="telephone"]
             @include meta
