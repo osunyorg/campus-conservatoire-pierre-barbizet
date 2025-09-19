@@ -1,0 +1,37 @@
+about:
+  label: Conservatoire Pierre Barbizet
+default:
+contents_reading_time:
+  seconds: 17
+  text: >-
+    moins d'une minute
+contents:
+  - kind: block
+    template: chapter
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 2
+    html_class: "block-class-footer-campus"
+    top:
+      active: false
+    data:
+      layout: no_background
+      text: >-
+        <p>Campus art Méditerranée est un établissement public de coopération culturelle agréé par le ministère de la Culture,et soutenu par la Ville de Marseille.<br><br>L'établissement compte trois entités : les Beaux Artsde Marseille, le Conservatoire de Marseille Pierre Barbizet, et l'Institut de formation artistique Marseille Méditerranée (IFAMM)</p><p><a href="https://campus-art-mediterranee.inseamm.osuny.site/" target="_blank" rel="noreferrer">Site de l'INSEAMM → <span class="sr-only">(lien externe)</span></a><br><a href="https://beaux-arts-de-marseille.inseamm.osuny.site/" target="_blank" rel="noreferrer">Site des Beaux Arts de Marseille  <span class="sr-only">(lien externe)</span></a>→</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+
