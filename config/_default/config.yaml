@@ -21,6 +21,7 @@ params:
       archives: true
       years: true
       group_by_date: "Monday 2 <i>January 2006</i>"
+      sticky_dates: false
   pages:
     layouts:
       grid:
