@@ -10,6 +10,7 @@ window.cpbm.hero = {
     },
     listen: function () {
         window.addEventListener('resize', this.resize.bind(this));
+        window.addEventListener('scroll', this.resize.bind(this));
     },
     resize: function () {
         if (!this.header.classList.contains('is-sticky')) {
