@@ -13,14 +13,14 @@ body:not(.offcanvas-toc)
                 ol
                     display: block
                 li
-                    margin-top: $spacing-1
+                    margin-top: pxToRem(10)
                     border-top: var(--border-width) solid $border-light-color
                     a
-                        padding-top: $spacing-1
+                        padding-top: pxToRem(10)
                     &:last-child 
                         border-bottom: var(--border-width) solid $border-light-color
                         a
-                            padding-bottom: $spacing-1
+                            padding-bottom: pxToRem(10)
                     .active
                         @include h2
                         // line-height: 1
