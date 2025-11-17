@@ -57,15 +57,19 @@ params:
     single:
       backlinks: true
   image_sizes:
-    blocks:
-      events:
-        list:
-          mobile:   200
-          tablet:   300
-          desktop:  539
     sections:
       home:
         hero:
           mobile:   400
           tablet:   800
           desktop:  1900
+      events:
+        children_in_agenda:
+          desktop:  299
+        layouts:
+          agenda:
+            desktop:  539
+          list:
+            mobile:   200
+            tablet:   300
+            desktop:  539
