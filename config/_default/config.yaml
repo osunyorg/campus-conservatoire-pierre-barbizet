@@ -68,8 +68,10 @@ params:
           desktop:  299
         layouts:
           agenda:
+            mobile:   327
+            tablet:   327
             desktop:  539
           list:
-            mobile:   200
-            tablet:   300
+            mobile:   327
+            tablet:   327
             desktop:  539
