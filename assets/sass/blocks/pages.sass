@@ -1,10 +1,18 @@
 .block-pages
-    // background: season-gradient(90deg, 40%, 80%)
-    .grid
-        article
-            .page-title
-                @include h2
-                a
-                    &:where(:not(:hover))
-                        &::after
-                            opacity: 0
+    &--grid,
+    &--cards, 
+    &--list
+        .pages
+            .page
+                .page-title + p
+                    margin-top: $spacing-2
+    
+    &--grid
+        .pages
+            .page
+                .page-title
+                    @include h2
+                    a
+                        &:where(:not(:hover))
+                            &::after
+                                opacity: 0
