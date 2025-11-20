@@ -40,11 +40,13 @@
             //             .event-content
             //                 margin-left: 0
     &--list
-        .event
-            border-bottom: none !important
-            border-top: none !important
+        > li
+            border-bottom: none
+            border-top: none
             padding-bottom: 0
             margin-bottom: space(16)
+
+        .event
             &-title
                 @include h2
             &-parent
