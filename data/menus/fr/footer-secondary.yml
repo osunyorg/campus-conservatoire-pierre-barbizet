@@ -12,13 +12,13 @@ items:
   new_tab: false
   children: []
 - title: Recrutement
-  target: ''
-  kind: blank
-  new_tab: false
+  target: https://www.campusartmediterranee.fr/recrutement/
+  kind: url
+  new_tab: true
   children: []
 - title: Mécénat
-  target: ''
-  kind: blank
-  new_tab: false
+  target: https://www.campusartmediterranee.fr/mecenat/
+  kind: url
+  new_tab: true
   children: []
 
