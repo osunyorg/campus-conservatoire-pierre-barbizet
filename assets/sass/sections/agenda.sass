@@ -24,27 +24,29 @@
                 font-style: normal
         @include media-breakpoint-up(desktop)
             .event
-                padding-left: offset(4)
-                .events-date-title
-                    &, &.is-down
-                        max-width: offset(3)
-                .media
-                    width: columns(4)
-                &.event--child
-                    padding-left: columns(2)
-                    margin-left: offset(4)
+                &:not(.event--child)
+                    padding-left: offset(4)
                     .media
-                        width: offset(2)
-                    &:not(.event--with-image)
-                        // padding-left: offset(2)
-                        .event-content
-                            margin-left: 0
+                        width: columns(4)
+                &--parent ~ .event-children
+                    > li
+                        margin-left: offset(4)
+                        .event
+                            padding-left: columns(2)
+                            .media
+                                width: offset(2)
+            //         &:not(.event--with-image)
+            //             // padding-left: offset(2)
+            //             .event-content
+            //                 margin-left: 0
     &--list
-        .event
-            border-bottom: none !important
-            border-top: none !important
+        > li
+            border-bottom: none
+            border-top: none
             padding-bottom: 0
             margin-bottom: space(16)
+
+        .event
             &-title
                 @include h2
             &-parent
@@ -190,8 +192,8 @@
                             max-width: offset(3)
                     .media
                         width: columns(4)
-                    &.event--child
-                        padding-left: offset(3)
+                    // &.event--child
+                    //     padding-left: offset(3)
 
 .events__section
     @include media-breakpoint-up(desktop)
@@ -259,3 +261,5 @@
             .event-content
                 padding-top: $spacing-3
                 padding-bottom: $spacing-3
+            .event-hours
+                margin-top: space(6)
