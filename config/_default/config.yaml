@@ -75,3 +75,8 @@ params:
             mobile:   327
             tablet:   327
             desktop:  539
+      programs:
+        layouts:
+          grid:
+            tablet:   400
+            desktop:  539
