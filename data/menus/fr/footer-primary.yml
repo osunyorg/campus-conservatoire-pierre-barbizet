@@ -30,4 +30,9 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Délibérations des C.A.
+  target: https://inseamm-actes.digitechcloud.fr/webdelibplus/jsp/seances.jsp?role=usager
+  kind: url
+  new_tab: true
+  children: []
 
