@@ -65,7 +65,7 @@ params:
           desktop:  1900
       events:
         children_in_agenda:
-          desktop:  299
+          desktop:  539
         layouts:
           agenda:
             mobile:   327
