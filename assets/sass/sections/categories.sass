@@ -19,6 +19,9 @@
     @include in-page-without-sidebar
         &--grid
             @include grid(2)
+        &--list
+            li + li
+                margin-top: $spacing-3
 
 .post-categories,
 .posts-taxonomies,

@@ -1,0 +1,3 @@
+{{ $options := . }}
+{{ $options = merge $options (dict "options" (dict "more" true)) }}
+{{ partial "categories/partials/category.html" $options }}
