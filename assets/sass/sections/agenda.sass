@@ -106,12 +106,6 @@
             order: 2
             li:not(:last-child) a::after
                 content: none
-        .more
-            @include body-text
-            text-decoration: underline
-            @include icon(arrow-right-line, after, true)
-                display: inline-block
-                transition: transform 0.3s ease
     &:hover .more::after
         transform: translateX($spacing-1)
 
@@ -202,6 +196,9 @@
                     //     padding-left: offset(3)
 
 .events__section
+    .agenda-exhibitions
+        .exhibition.is-federated
+            background: transparent !important
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6

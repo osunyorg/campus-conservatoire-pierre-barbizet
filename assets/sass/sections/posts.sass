@@ -37,7 +37,17 @@
             color: var(--color-text)
 
 .posts
+    .post
+        .media img
+            aspect-ratio: 1
+            object-fit: cover
+        .post-categories li a
+            text-align: left
+
     &--list
+        .post
+            padding-bottom: 0
+            margin-bottom: space(9)
         article
             border-bottom: 0
             @include in-page-without-sidebar
@@ -45,19 +55,6 @@
                     width: columns(6)
                 .media
                     width: columns(4)
-
-// commons
-.posts
-    .post
-        .media img
-            aspect-ratio: 1
-            object-fit: cover
-        .post-categories li a
-            text-align: left
-    &--list
-        .post
-            padding-bottom: 0
-            margin-bottom: space(9)
     &--large
         @include in-page-without-sidebar
             article.post
