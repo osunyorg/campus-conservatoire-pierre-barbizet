@@ -46,15 +46,20 @@
                 .media
                     width: columns(4)
 
-    // commons
-    .posts
+// commons
+.posts
+    .post
+        .media img
+            aspect-ratio: 1
+            object-fit: cover
+        .post-categories li a
+            text-align: left
+    &--list
         .post
-            .media img
-                aspect-ratio: 1
-                object-fit: cover
-            .post-categories li a
-                text-align: left
-        &--list
-            .post
-                padding-bottom: 0
-                margin-bottom: space(9)
+            padding-bottom: 0
+            margin-bottom: space(9)
+    &--large
+        @include in-page-without-sidebar
+            article.post
+                .post-title, .post-subtitle, hgroup
+                    @include h2

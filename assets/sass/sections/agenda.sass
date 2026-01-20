@@ -81,6 +81,11 @@
                 .media
                     margin-left: offset(4)
                     width: columns(4)
+    &--large
+        @include in-page-without-sidebar
+            article.event
+                .event-title, .event-subtitle, hgroup
+                    @include h2
 
 // commons
 .event 
