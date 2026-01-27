@@ -81,11 +81,11 @@
                 .media
                     margin-left: offset(4)
                     width: columns(4)
-    &--large
-        @include in-page-without-sidebar
-            article.event
-                .event-title, .event-subtitle, hgroup
-                    @include h2
+    // &--large
+    //     @include in-page-without-sidebar
+    //         article.event
+    //             .event-title, .event-subtitle, hgroup
+    //                 @include h2
 
 // commons
 .event 
@@ -94,20 +94,20 @@
     .media img
         aspect-ratio: 1
         object-fit: cover
-    [class$="-content"]
-        display: flex
-        flex-direction: column
-        .event-subtitle
-            @include h5
-            color: var(--color-text)
-        .event-categories
-            gap: $spacing-2
-            margin-top: $spacing-3 !important
-            order: 2
-            li:not(:last-child) a::after
-                content: none
-    &:hover .more::after
-        transform: translateX($spacing-1)
+    // [class$="-content"]
+    //     display: flex
+    //     flex-direction: column
+    //     .event-subtitle
+    //         @include h5
+    //         color: var(--color-text)
+    //     .event-categories
+    //         gap: $spacing-2
+    //         margin-top: $spacing-3 !important
+    //         order: 2
+    //         li:not(:last-child) a::after
+    //             content: none
+    // &:hover .more::after
+    //     transform: translateX($spacing-1)
 
 .block-agenda--list
     @include in-page-without-sidebar
