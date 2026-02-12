@@ -17,9 +17,14 @@
                     margin-top: auto
                     padding-top: $spacing-3
         &--list
-            .more
-                margin-top: $spacing-3
-
+            .event
+                .more
+                    margin-top: $spacing-3
+    @include in-page-without-sidebar
+        &--list
+            .event
+                .event-dates
+                    @include h5
         // .events-date-title, .event-title
         //     &, &.is-down
         //         @include h2
