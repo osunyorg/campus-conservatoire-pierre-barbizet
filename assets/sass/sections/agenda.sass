@@ -1,3 +1,8 @@
+.event 
+    &-title
+        @include h2
+    &:hover .more::after
+        transform: translateX($spacing-1)
 
 .events
     --border-width: 0
@@ -25,127 +30,6 @@
             .event
                 .event-dates
                     @include h5
-        // .events-date-title, .event-title
-        //     &, &.is-down
-        //         @include h2
-        //         color: var(--color-text)
-        // .event-subtitle
-        //     color: var(--color-text)
-        //     margin-top: $spacing-1
-        // .event-hours
-        //     @include h5
-        //     span
-        //         @include h2
-        // .event
-        //     .event-hours
-        //         time:first-child
-        //             @include h2
-        //             + time
-        //                 @include body-text
-        // .events-date-title
-        //     i
-        //         display: block
-        //         font-style: normal
-        // @include media-breakpoint-up(desktop)
-        //     .event
-        //         &:not(.event--child)
-        //             padding-left: offset(4)
-        //             .media
-        //                 width: columns(4)
-        //         &--parent ~ .event-children
-        //             > li
-        //                 margin-left: offset(4)
-        //                 .event
-        //                     padding-left: columns(2)
-        //                     .media
-        //                         width: offset(2)
-            //         &:not(.event--with-image)
-            //             // padding-left: offset(2)
-            //             .event-content
-            //                 margin-left: 0
-    // &--list
-    //     > li
-    //         border-bottom: none
-    //         border-top: none
-    //         padding-bottom: 0
-    //         margin-bottom: space(16)
-
-        // .event
-        //     &-title
-        //         @include h2
-        //     &-parent
-        //         @include body-text
-        //         margin-bottom: $spacing-2
-        //     .event-subtitle
-        //         margin-top: $spacing-2
-        //     .event-schedule p
-        //         @include h5
-        //     .media
-        //         order: -1
-        //         // img
-        //             // aspect-ratio: 1
-        //         @include media-breakpoint-down(desktop)
-        //             max-width: 100%
-        //         @include media-breakpoint-up(desktop)
-        //             width: columns(4)
-        //     @include media-breakpoint-up(desktop)
-        //         .event-categories
-        //             margin-top: space(8)
-        //     @include in-page-without-sidebar
-        //         position: relative
-        //         .event-content
-        //             flex: 1
-        //             display: flex
-        //             flex-direction: column
-        //             max-width: columns(8)
-        //             margin-left: auto
-        //         .event-schedule
-        //             position: absolute
-        //             left: 0
-        //         .media
-        //             margin-left: offset(4)
-        //             width: columns(4)
-    // &--large
-    //     @include in-page-without-sidebar
-    //         article.event
-    //             .event-title, .event-subtitle, hgroup
-    //                 @include h2
-
-// commons
-.event 
-    &-title
-        @include h2
-    // .media img
-        // aspect-ratio: 1
-        // object-fit: cover
-    // [class$="-content"]
-    //     display: flex
-    //     flex-direction: column
-    //     .event-subtitle
-    //         @include h5
-    //         color: var(--color-text)
-    //     .event-categories
-    //         gap: $spacing-2
-    //         margin-top: $spacing-3 !important
-    //         order: 2
-    //         li:not(:last-child) a::after
-    //             content: none
-    &:hover .more::after
-        transform: translateX($spacing-1)
-
-// .block-agenda--list
-//     @include in-page-without-sidebar
-//         .top
-//             display: flex
-//             gap: var(--grid-gutter)
-//             .block-title
-//                 a
-//                     &::after
-//                         opacity: 0
-//                     &:hover::after
-//                         opacity: 1
-//             .description
-//                 margin-top: 0
 
 .events__page
     .hero
@@ -162,10 +46,6 @@
             figure
                 &.image-portrait
                     order: unset
-                // @include media-breakpoint-down(desktop)
-                //     img
-                //         // aspect-ratio: 1
-                //         object-fit: cover
 
     a.programme-btn
         @extend .button
@@ -216,8 +96,6 @@
                             max-width: offset(3)
                     .media
                         width: columns(4)
-                    // &.event--child
-                    //     padding-left: offset(3)
 
 .events__section
     .agenda-exhibitions
