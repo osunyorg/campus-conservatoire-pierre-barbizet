@@ -2,37 +2,49 @@
 title: Footer Principal
 items:
 - title: Contact
+  slug: contact
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Newsletter
+  slug: newsletter
   target: https://996ebeb4.sibforms.com/serve/MUIFAJ42gHYYR9No_QYaDgLgF_guvvA7I08iDqYKoGRyCS00b4CTpphuGojQuF6xFZcU-KgcHNfKgA-SQn7knFuwufKyjnSRk_EfgXgwFLIFIfcO438qVlxQVPZlDm_xDoMYRlFLBa10RjGuqqsqtKwgZ8MRnbScNRunghksSMGbkfy8cnhttAsP8n4RlZIEK-axZT_70ChOss-0?fbclid=IwY2xjawKGs4NleHRuA2FlbQIxMABicmlkETFnTDEwRFVEU3lrQzNpYmRnAR6jESLIkM-3F0JOP3c9YOm7ZEP8xeLC_-FzD9LZzvR9HhjDwU92PfqzCVC2Fw_aem_FPSUKPI2iKb9rzAjuLprEA
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: FAQ
+  slug: faq
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Délibérations des C.A.
+  slug: deliberations-des-c-a
   target: https://inseamm-actes.digitechcloud.fr/webdelibplus/jsp/seances.jsp?role=usager
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
