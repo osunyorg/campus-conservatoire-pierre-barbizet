@@ -1,0 +1,24 @@
+.event,
+.post
+    &.is-federated
+        background: $color-campus
+        margin-left: var(--grid-gutter-negative)
+        margin-right: var(--grid-gutter-negative)
+        border-left: var(--grid-gutter) solid transparent
+        border-right: var(--grid-gutter) solid transparent
+        [class$="-federation"]
+            background: var(--color-background)
+            align-self: start
+            padding: space(1) space(2)
+            margin-bottom: $spacing-2
+            width: fit-content
+        @include media-breakpoint-down(desktop)
+            padding-top: var(--grid-gutter)
+            padding-bottom: var(--grid-gutter)
+        @include media-breakpoint-up(desktop)
+            padding-top: 0 !important
+            .event-content
+                padding-top: $spacing-3
+                padding-bottom: $spacing-3
+            .event-hours
+                margin-top: space(6)

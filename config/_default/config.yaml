@@ -22,8 +22,10 @@ params:
     index:
       archives: true
       years: true
-      group_by_date: "Monday 2 <i>January 2006</i>"
-      sticky_dates: false
+      group_by_date: "Monday 2 <br>January 2006"
+      # sticky_dates: false
+    list:
+      with_more: true
   pages:
     layouts:
       grid:
