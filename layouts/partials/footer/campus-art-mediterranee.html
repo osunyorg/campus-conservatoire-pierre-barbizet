@@ -2,7 +2,7 @@
 <h3 aria-expanded="false" aria-controls="footer-campus">En savoir plus sur le Campus art Méditerranée</h3>
 <div id="footer-campus" class="extendable" data-extendable-close-siblings="true" data-extendable-auto-close="true">
   {{ if $file }}
-    {{ $fileDimensions := partial "GetImageDimensions" (dict "context" . "file" $file "static" true) }}
+    {{ $fileDimensions := partial "commons/image/helpers/GetDimensions" (dict "context" . "file" $file "static" true) }}
     <img src="{{ $file }}" alt="{{ site.Title }}" height="{{ index $fileDimensions 1 }}" width="{{ index $fileDimensions 0 }}">
   {{ end }}
 
