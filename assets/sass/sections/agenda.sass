@@ -5,10 +5,17 @@
         transform: translateX($spacing-1)
 
 .events
-    --border-width: 0
     --color-text-alt: var(--color-text)
     &--agenda
+        // --color-border: var(--season-end-color)
+        li:has(.is-federated)
+            padding-top: 0 !important
+            + li
+                margin-top: 0
         .event
+            .media img
+                aspect-ratio: 1.54 / 1
+                object-fit: cover
             .event-title
                 @include h2
             .event-subtitle
