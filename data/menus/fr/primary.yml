@@ -2,220 +2,339 @@
 title: Menu principal
 items:
 - title: L'enseignement
+  slug: l-enseignement
   target: "/lenseignement/"
   kind: page
   new_tab: false
   children:
   - title: Les disciplines
+    slug: les-disciplines
     target: "/lenseignement/formations/categories/disciplines/"
     kind: url
     new_tab: false
     children:
     - title: Instruments
+      slug: instruments
       target: "/lenseignement/formations/categories/instruments/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Créations musicales
+      slug: creations-musicales
       target: "/lenseignement/formations/categories/creations-musicales/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Formations musicales
+      slug: formations-musicales
       target: "/lenseignement/formations/categories/formations-musicales/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Jazz
+      slug: jazz
       target: "/lenseignement/formations/categories/jazz/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Orchestres, ensembles & choeurs
+      slug: orchestres-ensembles-choeurs
       target: "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Voix
+      slug: voix
       target: "/lenseignement/formations/categories/voix/"
       kind: url
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Théâtre
+      slug: theatre
       target: "/lenseignement/formations/theatre/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/theatre"
       file: content/fr/programs/theatre/_index.html
     - title: Danse
+      slug: danse
       target: "/lenseignement/formations/danse/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/danse"
       file: content/fr/programs/danse/_index.html
+    descendants_targets:
+    - "/lenseignement/formations/categories/creations-musicales/"
+    - "/lenseignement/formations/categories/formations-musicales/"
+    - "/lenseignement/formations/categories/instruments/"
+    - "/lenseignement/formations/categories/jazz/"
+    - "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
+    - "/lenseignement/formations/categories/voix/"
+    - "/lenseignement/formations/danse/"
+    - "/lenseignement/formations/theatre/"
   - title: Les parcours
+    slug: les-parcours
     target: "/lenseignement/les-parcours/"
     kind: page
     new_tab: false
     children:
     - title: Éveil artistique
+      slug: eveil-artistique
       target: "/lenseignement/les-parcours/eveil-artistique/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lenseignement/les-parcours/eveil-artistique"
       file: content/fr/pages/lenseignement/les-parcours/eveil-artistique/_index.html
     - title: Classes à horaires aménagés
+      slug: classes-a-horaires-amenages
       target: "/lenseignement/les-parcours/classes-a-horaires-amenagees/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lenseignement/les-parcours/classes-a-horaires-amenagees"
       file: content/fr/pages/lenseignement/les-parcours/classes-a-horaires-amenagees/_index.html
     - title: Bac S2TMD
+      slug: bac-s2tmd
       target: "/lenseignement/les-parcours/bac-s2tmd/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lenseignement/les-parcours/bac-s2tmd"
       file: content/fr/pages/lenseignement/les-parcours/bac-s2tmd/_index.html
+    descendants_targets:
+    - "/lenseignement/les-parcours/bac-s2tmd/"
+    - "/lenseignement/les-parcours/classes-a-horaires-amenagees/"
+    - "/lenseignement/les-parcours/eveil-artistique/"
     path: "/pages/lenseignement/les-parcours"
     file: content/fr/pages/lenseignement/les-parcours/_index.html
   - title: Les ressources
+    slug: les-ressources
     target: "/lenseignement/les-ressources/"
     kind: page
     new_tab: false
     children:
     - title: Médiathèque
+      slug: mediatheque
       target: "/lenseignement/les-ressources/mediatheque/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lenseignement/les-ressources/mediatheque"
       file: content/fr/pages/lenseignement/les-ressources/mediatheque/_index.html
+    descendants_targets:
+    - "/lenseignement/les-ressources/mediatheque/"
     path: "/pages/lenseignement/les-ressources"
     file: content/fr/pages/lenseignement/les-ressources/_index.html
+  descendants_targets:
+  - "/lenseignement/formations/categories/creations-musicales/"
+  - "/lenseignement/formations/categories/disciplines/"
+  - "/lenseignement/formations/categories/formations-musicales/"
+  - "/lenseignement/formations/categories/instruments/"
+  - "/lenseignement/formations/categories/jazz/"
+  - "/lenseignement/formations/categories/orchestres-ensembles-choeurs/"
+  - "/lenseignement/formations/categories/voix/"
+  - "/lenseignement/formations/danse/"
+  - "/lenseignement/formations/theatre/"
+  - "/lenseignement/les-parcours/"
+  - "/lenseignement/les-parcours/bac-s2tmd/"
+  - "/lenseignement/les-parcours/classes-a-horaires-amenagees/"
+  - "/lenseignement/les-parcours/eveil-artistique/"
+  - "/lenseignement/les-ressources/"
+  - "/lenseignement/les-ressources/mediatheque/"
   path: "/pages/lenseignement"
   file: content/fr/pages/lenseignement/_index.html
 - title: Le Conservatoire
+  slug: le-conservatoire
   target: "/le-conservatoire/"
   kind: page
   new_tab: false
   children:
   - title: L'établissement
+    slug: l-etablissement
     target: "/le-conservatoire/letablissement/"
     kind: page
     new_tab: false
     children:
     - title: Histoire
+      slug: histoire
       target: "/le-conservatoire/letablissement/histoire/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/histoire"
       file: content/fr/pages/le-conservatoire/letablissement/histoire/_index.html
     - title: Les lieux
+      slug: les-lieux
       target: "/le-conservatoire/letablissement/les-lieux/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/les-lieux"
       file: content/fr/pages/le-conservatoire/letablissement/les-lieux/_index.html
     - title: Campus art Méditerranée
+      slug: campus-art-mediterranee
       target: "/le-conservatoire/letablissement/campus-art-mediterranee/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/campus-art-mediterranee"
       file: content/fr/pages/le-conservatoire/letablissement/campus-art-mediterranee/_index.html
     - title: Équipe enseignante
+      slug: equipe-enseignante
       target: "/le-conservatoire/letablissement/equipe-enseignante/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/equipe-enseignante"
       file: content/fr/pages/le-conservatoire/letablissement/equipe-enseignante/_index.html
     - title: Équipe administrative
+      slug: equipe-administrative
       target: "/le-conservatoire/letablissement/equipe-administrative-1/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/equipe-administrative-1"
       file: content/fr/pages/le-conservatoire/letablissement/equipe-administrative-1/_index.html
     - title: École inclusive
+      slug: ecole-inclusive
       target: "/le-conservatoire/letablissement/ecole-inclusive/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/ecole-inclusive"
       file: content/fr/pages/le-conservatoire/letablissement/ecole-inclusive/_index.html
     - title: Partenaires
+      slug: partenaires
       target: "/le-conservatoire/letablissement/partenaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/letablissement/partenaires"
       file: content/fr/pages/le-conservatoire/letablissement/partenaires/_index.html
+    descendants_targets:
+    - "/le-conservatoire/letablissement/campus-art-mediterranee/"
+    - "/le-conservatoire/letablissement/ecole-inclusive/"
+    - "/le-conservatoire/letablissement/equipe-administrative-1/"
+    - "/le-conservatoire/letablissement/equipe-enseignante/"
+    - "/le-conservatoire/letablissement/histoire/"
+    - "/le-conservatoire/letablissement/les-lieux/"
+    - "/le-conservatoire/letablissement/partenaires/"
     path: "/pages/le-conservatoire/letablissement"
     file: content/fr/pages/le-conservatoire/letablissement/_index.html
   - title: L'action culturelle
+    slug: l-action-culturelle
     target: "/le-conservatoire/laction-culturelle/"
     kind: page
     new_tab: false
     children:
     - title: Projets
+      slug: projets
       target: "/le-conservatoire/laction-culturelle/projet/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/laction-culturelle/projet"
       file: content/fr/pages/le-conservatoire/laction-culturelle/projet/_index.html
     - title: L'orchestre Démos
+      slug: l-orchestre-demos
       target: "/le-conservatoire/laction-culturelle/lorchestre-demos/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/laction-culturelle/lorchestre-demos"
       file: content/fr/pages/le-conservatoire/laction-culturelle/lorchestre-demos/_index.html
     - title: L'orchestre des Colibris
+      slug: l-orchestre-des-colibris
       target: "/le-conservatoire/laction-culturelle/lorchestre-des-colibris/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/laction-culturelle/lorchestre-des-colibris"
       file: content/fr/pages/le-conservatoire/laction-culturelle/lorchestre-des-colibris/_index.html
     - title: Visites découvertes
+      slug: visites-decouvertes
       target: "/le-conservatoire/laction-culturelle/visites-decouvertes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/laction-culturelle/visites-decouvertes"
       file: content/fr/pages/le-conservatoire/laction-culturelle/visites-decouvertes/_index.html
     - title: Carliminot
+      slug: carliminot
       target: "/le-conservatoire/laction-culturelle/carliminot/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/le-conservatoire/laction-culturelle/carliminot"
       file: content/fr/pages/le-conservatoire/laction-culturelle/carliminot/_index.html
+    descendants_targets:
+    - "/le-conservatoire/laction-culturelle/carliminot/"
+    - "/le-conservatoire/laction-culturelle/lorchestre-demos/"
+    - "/le-conservatoire/laction-culturelle/lorchestre-des-colibris/"
+    - "/le-conservatoire/laction-culturelle/projet/"
+    - "/le-conservatoire/laction-culturelle/visites-decouvertes/"
     path: "/pages/le-conservatoire/laction-culturelle"
     file: content/fr/pages/le-conservatoire/laction-culturelle/_index.html
+  descendants_targets:
+  - "/le-conservatoire/laction-culturelle/"
+  - "/le-conservatoire/laction-culturelle/carliminot/"
+  - "/le-conservatoire/laction-culturelle/lorchestre-demos/"
+  - "/le-conservatoire/laction-culturelle/lorchestre-des-colibris/"
+  - "/le-conservatoire/laction-culturelle/projet/"
+  - "/le-conservatoire/laction-culturelle/visites-decouvertes/"
+  - "/le-conservatoire/letablissement/"
+  - "/le-conservatoire/letablissement/campus-art-mediterranee/"
+  - "/le-conservatoire/letablissement/ecole-inclusive/"
+  - "/le-conservatoire/letablissement/equipe-administrative-1/"
+  - "/le-conservatoire/letablissement/equipe-enseignante/"
+  - "/le-conservatoire/letablissement/histoire/"
+  - "/le-conservatoire/letablissement/les-lieux/"
+  - "/le-conservatoire/letablissement/partenaires/"
   path: "/pages/le-conservatoire"
   file: content/fr/pages/le-conservatoire/_index.html
 - title: Agenda
+  slug: agenda
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 - title: Inscriptions
+  slug: inscriptions
   target: "/inscriptions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/inscriptions"
   file: content/fr/pages/inscriptions/_index.html
 

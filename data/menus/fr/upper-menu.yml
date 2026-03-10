@@ -2,13 +2,17 @@
 title: Menu secondaire
 items:
 - title: Site de l’orchestre Démos
+  slug: site-de-l-orchestre-demos
   target: https://demos.conservatoiredemarseille.fr/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Espace Élèves et Enseignants
+  slug: espace-eleves-et-enseignants
   target: https://marseille.rhapsodie.fr/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

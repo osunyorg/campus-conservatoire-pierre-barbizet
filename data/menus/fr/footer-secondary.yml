@@ -2,23 +2,31 @@
 title: Footer secondaire
 items:
 - title: Location d’espaces
+  slug: location-d-espaces
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Ressources techniques
+  slug: ressources-techniques
   target: ''
   kind: blank
   new_tab: false
   children: []
+  descendants_targets: []
 - title: Recrutement
+  slug: recrutement
   target: https://www.campusartmediterranee.fr/recrutement/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 - title: Mécénat
+  slug: mecenat
   target: https://www.campusartmediterranee.fr/mecenat/
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
