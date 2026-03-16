@@ -16,9 +16,9 @@ params:
   home:
     head:
       title: site
+  share_links:
+    enabled: false
   events:
-    share_links:
-      enabled: false
     index:
       archives: true
       years: true
@@ -37,9 +37,15 @@ params:
         position: none
   posts:
     single:
+      options:
+        authors: false
+        published_at: false
+        reading_time: false
+        signature: false
+        updated_at: false
       taxonomies:
-        show_name: false
         position: hero
+        show_name: false
   programs:
     index:
       layout: grid
