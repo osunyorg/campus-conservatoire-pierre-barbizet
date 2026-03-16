@@ -1,3 +1,28 @@
 .post
     .post-subtitle
         @include h4
+
+.posts__page
+    .hero
+        .hero-text
+            display: flex
+            flex-direction: column
+            > time
+                order: -1
+                margin-bottom: $spacing-2
+                @include meta
+            h1 > span
+                @include h2
+                margin-top: $spacing-2
+                color: var(--color-text)
+    @include media-breakpoint-up(desktop)
+        .hero-text
+            padding-top: var(--grid-gutter)
+            > time
+                margin-bottom: $spacing-3
+    .post-sidebar
+        aside
+            display: none
+    .toc-container
+        border-top: 0 !important
+        padding-top: 0 !important
