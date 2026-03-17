@@ -6,8 +6,10 @@
 
 .events
     --color-text-alt: var(--color-text)
+    &--list,
     &--agenda
         --color-border: var(--season-start-color)
+    &--agenda
         li:has(.is-federated)
             padding-top: 0 !important
             .event
