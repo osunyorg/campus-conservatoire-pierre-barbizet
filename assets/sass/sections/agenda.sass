@@ -35,17 +35,39 @@
                 .more
                     margin-top: auto
                     padding-top: $spacing-3
+    @include in-page-with-or-without-sidebar
         &--list
             .event
+                [class$="-content"]
+                    display: flex
+                    flex-direction: column
+                .media
+                    width: columns(3)
                 .more
-                    grid-column: 5 / 11
                     margin-top: $spacing-3
-
     @include in-page-without-sidebar
         &--list
             .event
+                align-items: stretch
+                padding-left: offset(2)
                 .event-dates
                     @include h5
+                [class$="-content"]
+                    width: columns(5)
+                    hgroup,
+                    > .event-title,
+                    .event-description
+                        width: columns(5)
+                    .event-description
+                        flex: 1
+                [class$="-schedule"]
+                    position: absolute
+                    left: 0
+                    margin-top: 0
+                    width: columns(2)
+                .media
+                    width: columns(4)
+                    order: -1
 
 .events__page
     .hero
