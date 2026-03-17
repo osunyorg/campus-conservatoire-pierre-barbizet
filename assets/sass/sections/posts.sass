@@ -13,13 +13,19 @@
                 @include meta
             h1 > span
                 @include h2
-                margin-top: $spacing-2
+                margin-top: space(5)
                 color: var(--color-text)
+        .hero-actions
+            > a
+                box-shadow: $btn-box-shadow
     @include media-breakpoint-up(desktop)
         .hero-text
             padding-top: var(--grid-gutter)
             > time
                 margin-bottom: $spacing-3
+        .hero-image
+            padding-top: var(--grid-gutter)
+
     .post-sidebar
         aside
             display: none

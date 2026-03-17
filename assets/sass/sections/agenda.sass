@@ -7,7 +7,7 @@
 .events
     --color-text-alt: var(--color-text)
     &--agenda
-        --color-border: var(--season-end-color)
+        --color-border: var(--season-start-color)
         li:has(.is-federated)
             padding-top: 0 !important
             .event
@@ -22,6 +22,11 @@
                 @include h2
             .event-subtitle
                 @include h4
+        .events-date-title
+            @include h4
+            margin-top: $spacing-2
+        .event-scheduled
+            margin-top: $spacing-2 !important
     @include media-breakpoint-up(desktop)
         &--agenda
             .event-content
@@ -90,7 +95,6 @@
                 > ul
                     width: columns(8)
                 > ul
-                    margin-left: offset(4)
                     .date
                         width: auto
                 .dropdown-menu
@@ -141,7 +145,6 @@
             .dropdown
                 > button, .extendable
                     background: none
-                    // padding: 0
                     box-shadow: none
                     &::before
                         display: none
