@@ -7,6 +7,10 @@ osuny:
   website:
     id: 598fa4a4-3623-40df-82f1-114eb9023449
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "conservatoiredemarseille.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
