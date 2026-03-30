@@ -71,6 +71,14 @@
                     width: columns(4)
                     order: -1
 
+.exhibitions--agenda
+    .exhibition
+        .exhibition-dates
+            @include h4
+        &.is-federated
+            padding-bottom: 0
+            padding-top: 0
+
 .events__page
     .hero
         .content
@@ -143,6 +151,23 @@
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6
+    .events--agenda
+        .events-date
+            border-top: var(--border-width) solid var(--color-border)
+    .events-archives-latest,
+    .events-archives-years
+        padding-top: var(--grid-gutter)
+    .events-archives-years 
+        > ol
+            > li:first-child
+                border-top: var(--border-width) solid var(--color-border)
+                margin-top: $spacing-3
+    .event-children
+        > li
+            border-top-style: dotted !important
+    // .events-archives-latest > h2:first-child
+    //     padding-top: var(--grid-gutter)
+    //     border-top: var(--border-width) solid var(--season-start-color)
 
 .calendar-month
     caption
