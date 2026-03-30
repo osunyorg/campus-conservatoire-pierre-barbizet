@@ -7,22 +7,11 @@ osuny:
   website:
     id: 598fa4a4-3623-40df-82f1-114eb9023449
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "conservatoiredemarseille.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
-
-## CACHE
-deployment:
-  matchers:
-    - pattern: "^.+\\.(woff2|woff|svg|ttf|otf|eot|js|css)$"
-      cacheControl: "max-age=31536000, no-transform, public"
-      gzip: true
-    - pattern: "^.+\\.(png|jpg|jpeg|gif|webp)$"
-      cacheControl: "max-age=31536000, no-transform, public"
-      gzip: false
-  ## DEUXFLEURS
-  workers: 4
-  targets:
-    - name: "production"
-      URL: "s3://www.conservatoiredemarseille.fr?endpoint=https://garage.deuxfleurs.fr&awssdk=v2&use_path_style=true&region=garage&disable_https=false"
