@@ -75,9 +75,6 @@
     .exhibition
         .exhibition-dates
             @include h4
-        &.is-federated
-            padding-bottom: 0
-            padding-top: 0
 
 .events__page
     .hero
@@ -145,9 +142,6 @@
                         width: columns(4)
 
 .events__section
-    .agenda-exhibitions
-        .exhibition.is-federated
-            background: transparent !important
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6
@@ -206,39 +200,3 @@
                 .slider-arrows
                     .slider-arrow
                         top: 0
-
-// Federation
-// .event
-//     &.is-federated
-//         background: $color-campus
-//         margin-left: var(--grid-gutter-negative)
-//         margin-right: var(--grid-gutter-negative)
-//         border-left: var(--grid-gutter) solid transparent
-//         border-right: var(--grid-gutter) solid transparent
-//         .event-federation
-//             background: var(--color-background)
-//             align-self: start
-//             padding: space(1) space(2)
-//             margin-bottom: $spacing-2
-//         @include media-breakpoint-down(desktop)
-//             padding-top: var(--grid-gutter)
-//             padding-bottom: var(--grid-gutter)
-//         @include media-breakpoint-up(desktop)
-//             padding-top: 0 !important
-//             .event-content
-//                 padding-top: $spacing-3
-//                 padding-bottom: $spacing-3
-//             .event-hours
-//                 margin-top: space(6)
-
-// .exhibitions
-//     &--grid
-//         @include media-breakpoint-up(desktop)
-//             .exhibition
-//                 &.is-federated
-//                     margin-left: 0
-//                     margin-right: 0
-//                     padding-bottom: $spacing-4
-//                     .media
-//                         margin-left: var(--grid-gutter-negative)
-//                         margin-right: var(--grid-gutter-negative)

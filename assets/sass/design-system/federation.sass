@@ -2,27 +2,40 @@
 .post
     &.is-federated
         background: var(--season-end-color)
-        margin-left: var(--grid-gutter-negative)
-        margin-right: var(--grid-gutter-negative)
-        border-left: var(--grid-gutter) solid transparent
-        border-right: var(--grid-gutter) solid transparent
         [class$="-federation"]
             background: var(--color-background)
             align-self: start
             padding: space(1) space(2)
             margin-bottom: $spacing-2
+            margin-top: 0 !important
             width: fit-content
-        @include media-breakpoint-down(desktop)
-            padding-top: var(--grid-gutter)
-            padding-bottom: var(--grid-gutter)
-        @include media-breakpoint-up(desktop)
-            padding-top: $spacing-3
-            padding-bottom: $spacing-3
-            .event-hours
-                margin-top: space(6)
+            order: -1
+        .event-content,
+        .exhibition-content
+            display: flex
+            flex-direction: column
+            @include media-breakpoint-down(desktop)
+                padding-top: var(--grid-gutter)
+                padding-bottom: var(--grid-gutter)
+        .media
+            margin-bottom: 0
 
-.events
+.events, .exhibitions
     &--list
+        .event, .exhibition
+            &.is-federated
+                margin-left: var(--grid-gutter-negative)
+                margin-right: var(--grid-gutter-negative)
+                border-left: var(--grid-gutter) solid transparent
+                border-right: var(--grid-gutter) solid transparent
+                @include media-breakpoint-down(desktop)
+                    padding-top: var(--grid-gutter)
+                    padding-bottom: var(--grid-gutter)
+                @include media-breakpoint-up(desktop)
+                    padding-top: $spacing-3
+                    padding-bottom: $spacing-3
+                    .event-hours
+                        margin-top: space(6)
         @include in-page-without-sidebar
             .event
                 &.is-federated
@@ -33,3 +46,49 @@
                     border: 0
                     .event-schedule
                         left: $spacing-3
+    &--grid
+        .exhibition, .event
+            &.is-federated
+                .media
+                    margin-bottom: 0
+                .event-content,
+                .exhibition-content
+                    display: flex
+                    flex-direction: column
+                    padding-top: $spacing-3
+                    padding-left: $spacing-3
+                    padding-right: $spacing-3
+                    padding-bottom: $spacing-3
+                @include media-breakpoint-up(desktop)
+                    margin-left: 0
+                    margin-right: 0
+                    padding-top: 0
+    &--large
+        @include media-breakpoint-down(desktop)
+            .exhibition, .event
+                &.is-federated
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+                    margin-left: var(--grid-gutter-negative)
+                    margin-right: var(--grid-gutter-negative)
+                    .media
+                        margin-bottom: 0
+    &--agenda
+        .event
+            &.is-federated
+                @include media-breakpoint-up(desktop)
+                    padding: $spacing-3
+                    padding-left: offset(3)
+                    .event-timeslot
+                        left: $spacing-3
+                        top: $spacing-3
+                @include media-breakpoint-down(desktop)
+                    .event-content
+                        padding-left: $spacing-3
+                        padding-right: $spacing-3
+
+.exhibitions.exhibitions--agenda
+    .exhibition
+        &-content
+            padding-left: 0
+            padding-right: 0
