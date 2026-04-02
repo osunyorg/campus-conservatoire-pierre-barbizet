@@ -20,3 +20,16 @@
             padding-bottom: $spacing-3
             .event-hours
                 margin-top: space(6)
+
+.events
+    &--list
+        @include in-page-without-sidebar
+            .event
+                &.is-federated
+                    margin-left: 0
+                    margin-right: 0
+                    padding-right: $spacing-3
+                    padding-left: offset(2)
+                    border: 0
+                    .event-schedule
+                        left: $spacing-3
