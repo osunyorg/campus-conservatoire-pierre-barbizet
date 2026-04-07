@@ -16,14 +16,16 @@ params:
   home:
     head:
       title: site
+  share_links:
+    enabled: false
   events:
-    share_links:
-      enabled: false
     index:
       archives: true
       years: true
-      group_by_date: "Monday 2 <i>January 2006</i>"
+      group_by_date: "Monday 2 January 2006"
       sticky_dates: false
+    list:
+      with_more: true
   pages:
     layouts:
       grid:
@@ -35,9 +37,15 @@ params:
         position: none
   posts:
     single:
+      options:
+        authors: false
+        published_at: false
+        reading_time: false
+        signature: false
+        updated_at: false
       taxonomies:
-        show_name: false
         position: hero
+        show_name: false
   programs:
     index:
       layout: grid

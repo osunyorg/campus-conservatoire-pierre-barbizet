@@ -1,127 +1,84 @@
-.events
-    &--agenda
-        --border-width: 0
-        .events-date-title, .event-title
-            &, &.is-down
-                @include h2
-                color: var(--color-text)
-        .event-subtitle
-            color: var(--color-text)
-            margin-top: $spacing-1
-        .event-hours
-            @include h5
-            span
-                @include h2
-        .event
-            .event-hours
-                time:first-child
-                    @include h2
-                    + time
-                        @include body-text
-        .events-date-title
-            i
-                display: block
-                font-style: normal
-        @include media-breakpoint-up(desktop)
-            .event
-                &:not(.event--child)
-                    padding-left: offset(4)
-                    .media
-                        width: columns(4)
-                &--parent ~ .event-children
-                    > li
-                        margin-left: offset(4)
-                        .event
-                            padding-left: columns(2)
-                            .media
-                                width: offset(2)
-            //         &:not(.event--with-image)
-            //             // padding-left: offset(2)
-            //             .event-content
-            //                 margin-left: 0
-    &--list
-        > li
-            border-bottom: none
-            border-top: none
-            padding-bottom: 0
-            margin-bottom: space(16)
-
-        .event
-            &-title
-                @include h2
-            &-parent
-                @include body-text
-                margin-bottom: $spacing-2
-            .event-subtitle
-                margin-top: $spacing-2
-            .event-schedule p
-                @include h5
-            .media
-                order: -1
-                img
-                    aspect-ratio: 1
-                @include media-breakpoint-down(desktop)
-                    max-width: 100%
-                @include media-breakpoint-up(desktop)
-                    width: columns(4)
-            @include media-breakpoint-up(desktop)
-                .event-categories
-                    margin-top: space(8)
-            @include in-page-without-sidebar
-                position: relative
-                .event-content
-                    flex: 1
-                    display: flex
-                    flex-direction: column
-                    max-width: columns(8)
-                    margin-left: auto
-                .event-schedule
-                    position: absolute
-                    left: 0
-                .media
-                    margin-left: offset(4)
-                    width: columns(4)
-    &--large
-        @include in-page-without-sidebar
-            article.event
-                .event-title, .event-subtitle, hgroup
-                    @include h2
-
-// commons
 .event 
     &-title
         @include h2
-    .media img
-        aspect-ratio: 1
-        object-fit: cover
-    [class$="-content"]
-        display: flex
-        flex-direction: column
-        .event-subtitle
-            @include h5
-            color: var(--color-text)
-        .event-categories
-            gap: $spacing-2
-            margin-top: $spacing-3 !important
-            order: 2
-            li:not(:last-child) a::after
-                content: none
     &:hover .more::after
         transform: translateX($spacing-1)
 
-.block-agenda--list
-    @include in-page-without-sidebar
-        .top
-            display: flex
-            gap: var(--grid-gutter)
-            .block-title
-                a
-                    &::after
-                        opacity: 0
-                    &:hover::after
-                        opacity: 1
-            .description
+.events
+    --color-text-alt: var(--color-text)
+    .event
+        &-hours
+            time + time
+                @include meta
+    &--list,
+    &--agenda
+        --color-border: var(--season-end-color)
+    &--agenda
+        li:has(.is-federated)
+            padding-top: 0 !important
+            .event
+                margin-top: -1px
+            + li
                 margin-top: 0
+        .event
+            .media img
+                aspect-ratio: 1.54 / 1
+                object-fit: cover
+            .event-title
+                @include h2
+            .event-subtitle
+                @include h4
+        .events-date-title
+            @include h4
+            margin-top: $spacing-2
+        .event-scheduled
+            margin-top: $spacing-2 !important
+    @include media-breakpoint-up(desktop)
+        &--agenda
+            .event-content
+                display: flex
+                flex-direction: column
+                .more
+                    margin-top: auto
+                    padding-top: $spacing-3
+    @include in-page-with-or-without-sidebar
+        &--list
+            .event
+                [class$="-content"]
+                    display: flex
+                    flex-direction: column
+                .media
+                    width: columns(3)
+                .more
+                    margin-top: $spacing-3
+    @include in-page-without-sidebar
+        &--list
+            .event
+                align-items: stretch
+                padding-left: offset(2)
+                .event-dates
+                    @include h5
+                [class$="-content"]
+                    width: columns(5)
+                    hgroup,
+                    > .event-title,
+                    .event-description
+                        width: columns(5)
+                    .event-description
+                        flex: 1
+                [class$="-schedule"]
+                    position: absolute
+                    left: 0
+                    margin-top: 0
+                    width: columns(2)
+                .media
+                    width: columns(4)
+                    order: -1
+
+.exhibitions--agenda
+    .exhibition
+        .exhibition-dates
+            @include h4
 
 .events__page
     .hero
@@ -138,10 +95,6 @@
             figure
                 &.image-portrait
                     order: unset
-                @include media-breakpoint-down(desktop)
-                    img
-                        aspect-ratio: 1
-                        object-fit: cover
 
     a.programme-btn
         @extend .button
@@ -175,7 +128,6 @@
                 > ul
                     width: columns(8)
                 > ul
-                    // margin-left: offset(4)
                     .date
                         width: auto
                 .dropdown-menu
@@ -192,16 +144,28 @@
                             max-width: offset(3)
                     .media
                         width: columns(4)
-                    // &.event--child
-                    //     padding-left: offset(3)
 
 .events__section
-    .agenda-exhibitions
-        .exhibition.is-federated
-            background: transparent !important
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6
+    .events--agenda
+        .events-date
+            border-top: var(--border-width) solid var(--color-border)
+    .events-archives-latest,
+    .events-archives-years
+        padding-top: var(--grid-gutter)
+    .events-archives-years 
+        > ol
+            > li:first-child
+                border-top: var(--border-width) solid var(--color-border)
+                margin-top: $spacing-3
+    .event-children
+        > li
+            border-top-style: dotted !important
+    // .events-archives-latest > h2:first-child
+    //     padding-top: var(--grid-gutter)
+    //     border-top: var(--border-width) solid var(--season-start-color)
 
 .calendar-month
     caption
@@ -228,7 +192,6 @@
             .dropdown
                 > button, .extendable
                     background: none
-                    // padding: 0
                     box-shadow: none
                     &::before
                         display: none
@@ -241,40 +204,3 @@
                 .slider-arrows
                     .slider-arrow
                         top: 0
-
-
-// Federation
-.event
-    &.is-federated
-        background: $color-campus
-        margin-left: var(--grid-gutter-negative)
-        margin-right: var(--grid-gutter-negative)
-        border-left: var(--grid-gutter) solid transparent
-        border-right: var(--grid-gutter) solid transparent
-        .event-federation
-            background: var(--color-background)
-            align-self: start
-            padding: space(1) space(2)
-            margin-bottom: $spacing-2
-        @include media-breakpoint-down(desktop)
-            padding-top: var(--grid-gutter)
-            padding-bottom: var(--grid-gutter)
-        @include media-breakpoint-up(desktop)
-            padding-top: 0 !important
-            .event-content
-                padding-top: $spacing-3
-                padding-bottom: $spacing-3
-            .event-hours
-                margin-top: space(6)
-
-.exhibitions
-    &--grid
-        @include media-breakpoint-up(desktop)
-            .exhibition
-                &.is-federated
-                    margin-left: 0
-                    margin-right: 0
-                    padding-bottom: $spacing-4
-                    .media
-                        margin-left: var(--grid-gutter-negative)
-                        margin-right: var(--grid-gutter-negative)
