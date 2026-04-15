@@ -9,7 +9,7 @@ breadcrumb_title: >-
 url: "/"
 slug: ""
 date: 2024-11-26T11:56:19+01:00
-lastmod: 2026-04-07T11:30:20+02:00
+lastmod: 2026-04-15T15:28:46+02:00
 meta:
   hugo:
     permalink: "/"
@@ -18,7 +18,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-11-26T11:56:19+01:00
-    updated_at: 2026-04-07T11:30:20+02:00
+    updated_at: 2026-04-15T15:28:46+02:00
     published_at: 2024-11-26T11:56:19+01:00
 search:
   id: "bbac1140-2531-4c62-b23f-e21df61adef5"
@@ -164,7 +164,7 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: agenda
 
 
     ranks:
@@ -174,27 +174,56 @@ contents:
       active: false
 
     data:
-      mode: selection
-      layout: large
+      mode: all
+      kinds:
+        parent: true
+        child: true
+        recurring: false
       options:
-        author: false
         categories: true
-        date: false
+        dates: true
         image: true
-        reading_time: false
         subtitle: true
         summary: true
+        status: false
 
-      posts:
-        - permalink: "/actualites/2025-03-18-preinscriptions-reinsciptions-2025-2026/"
-          path: "/posts/2025/2025-03-18-preinscriptions-reinsciptions-2025-2026"
-          slug: "preinscriptions-reinsciptions-2025-2026"
-          file: "content/fr/posts/2025/2025-03-18-preinscriptions-reinsciptions-2025-2026.html"
+      layout: list
+
+
+      title_link: "/agenda/"
+      events:
+        - permalink: "/agenda/2025/loreille-concrete-saison-3/"
+          path: "/events/2025/10/03-loreille-concrete-saison-3"
+          slug: "loreille-concrete-saison-3"
+          file: "content/fr/events/2025/10/03-loreille-concrete-saison-3.html"
           name: >-
-            Journée portes ouvertes | Préinscriptions & réinscriptions 2026-2027
+            L'Oreille concrète | Saison 3
+        - permalink: "/agenda/2025/carlissimo-1/"
+          path: "/events/2025/10/13-carlissimo-1"
+          slug: "carlissimo-1"
+          file: "content/fr/events/2025/10/13-carlissimo-1.html"
+          name: >-
+            Carlissimo - 𝑙𝑒𝑠 𝑟𝑒𝑛𝑑𝑒𝑧-𝑣𝑜𝑢𝑠 𝑑𝑢 𝑙𝑢𝑛𝑑𝑖 𝑑𝑢 𝐶𝑜𝑛𝑠𝑒𝑟𝑣𝑎𝑡𝑜𝑖𝑟𝑒
+        - permalink: "/agenda/2025/les-auditions-du-conservatoire/"
+          path: "/events/2025/10/17-les-auditions-du-conservatoire"
+          slug: "les-auditions-du-conservatoire"
+          file: "content/fr/events/2025/10/17-les-auditions-du-conservatoire.html"
+          name: >-
+            Les Auditions du Conservatoire
+        - permalink: "/agenda/2025/carlissimo-1/erik-satie-le-musicien-dada/"
+          path: "/events/2026/04/27-19-00-erik-satie-le-musicien-dada"
+          slug: "erik-satie-le-musicien-dada"
+          file: "content/fr/events/2026/04/27-19-00-erik-satie-le-musicien-dada.html"
+          name: >-
+            Erik Satie "Le musicien dada"
+        - permalink: "/agenda/2026/journee-portes-ouvertes/"
+          path: "/events/2026/05/09-journee-portes-ouvertes"
+          slug: "journee-portes-ouvertes"
+          file: "content/fr/events/2026/05/09-journee-portes-ouvertes.html"
+          name: >-
+            Journée portes ouvertes
 
-      quantity: 1
-
+      quantity: 5
 
   - kind: block
     template: call_to_action
