@@ -13,3 +13,432 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-gloria-gloria-de-marlo-camares-blanco/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/gloria-gloria-de-marlo-camares-blanco/"
+
+[[redirects]]
+from = "/equipe/categories/professeures/proffeseures-demos/"
+to = "/equipe/categories/demos/professeures-demos/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-meres-loratorlo/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/meres-loratorlo/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-concert-de-losamuco-a-finir/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/concert-de-losamuco-a-finir/"
+
+[[redirects]]
+from = "/lenseignement/formations/choeur-lyrique-adulte/"
+to = "/lenseignement/formations/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-26-carli-minots/"
+to = "/agenda/2024/le-grand-boucan/carli-minots/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-tutus/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/tutus/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-05-19-louange-pour-11-instruments-et-electronique/"
+to = "/agenda/2025/louange-pour-11-instruments-et-electronique/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-barber-quizz-et-blind-test/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/barber-quizz-et-blind-test/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-26-gouter-en-fanfare/"
+to = "/agenda/2024/le-grand-boucan/gouter-en-fanfare/"
+
+[[redirects]]
+from = "/offre-de-formation/choeur-lyrique-adulte/"
+to = "/offre-de-formation/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-place-aux-minotes/"
+to = "/agenda/2024/le-grand-boucan/place-aux-minotes/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-que-despoir/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/que-despoir/"
+
+[[redirects]]
+from = "/formations/pratique-vocale/"
+to = "/lenseignement/formations/pratique-vocale/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/carte-blanche-a-valery-arzoumanov/"
+to = "/agenda/2025/carlissimo-printemps/carte-blanche-a-valery-arzoumanov/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-27-harmonie-en-friche/"
+to = "/agenda/2024/le-grand-boucan/harmonie-en-friche/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/quintette-de-mozart-et-de-brahms/"
+to = "/agenda/2024/carlissimo-hiver/quintette-de-mozart-et-de-brahms/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-dessins-musiques-dessins/"
+to = "/agenda/2024/le-grand-boucan/dessins-musiques-dessins/"
+
+[[redirects]]
+from = "/formations/formation-musicale-chant-choral/"
+to = "/lenseignement/formations/formation-musicale-chant-choral/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/"
+to = "/agenda/2025/carlissimo-hiver/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-01-13-quintette-de-mozart-et-de-brahms/"
+to = "/agenda/2025/carlissimo-printemps/quintettes-de-mozart-et-de-brahms/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-03-17-les-fables-de-la-fontaine/"
+to = "/agenda/2025/carlissimo-printemps/les-fables-de-la-fontaine/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/autour-de-la-harpe/"
+to = "/agenda/2024/carlissimo-hiver/autour-de-la-harpe/"
+
+[[redirects]]
+from = "/formations/clarinette/clarinette-debutant/"
+to = "/lenseignement/formations/clarinette/clarinette-debutant/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/et-bien-dansez-maintenant/"
+to = "/agenda/2025/carlissimo-printemps/et-bien-dansez-maintenant/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo-printemps-2025/"
+to = "/agenda/2025/carlissimo-printemps/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-03-10-carte-blanche-a-valery-arzoumanov/"
+to = "/agenda/2025/carlissimo-printemps/carte-blanche-a-valery-arzoumanov/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2025-02-24-alto-et-piano-en-romantisme/"
+to = "/agenda/2024/carlissimo-hiver/alto-et-piano-en-romantisme/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-exploitation-de-site/accueil/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/accueil/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-exploitation-de-site/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-le-theoreme-du-pissenlit-de-yann-verburgh/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/le-theoreme-du-pissenlit-de-yann-verburgh/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2024-12-02-schonberg-un-revolutionnaire-viennois/"
+to = "/agenda/2024/carlissimo-hiver/schonberg-un-revolutionnaire-viennois/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-regie-generale/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/service-regie-generale/"
+
+[[redirects]]
+from = "/agenda/offre-de-formation/choeur-lyrique-adulte/"
+to = "/agenda/offre-de-formation/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-extrait-de-cyrano-promenade-choregraphique/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/extrait-de-cyrano-promenade-choregraphique/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/alto-et-piano-en-romantisme/"
+to = "/agenda/2024/carlissimo-hiver/alto-et-piano-en-romantisme/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-big-band-ojazz-amu-co/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/big-band-ojazz-amu-co/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-06-16-cantate-pour-un-coeur-bleu-conte-musical/"
+to = "/agenda/2025/carlissimo-printemps/cantate-pour-un-coeur-bleu-conte-musical/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-25-jouez-jeunesse/"
+to = "/agenda/2024/le-grand-boucan/jouez-jeunesse/"
+
+[[redirects]]
+from = "/equipe/categories/proffeseures-demos/"
+to = "/equipe/categories/demos/professeures-demos/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-26-des-minotes-des-cordes-et-du-rock/"
+to = "/agenda/2024/le-grand-boucan/des-minotes-des-cordes-et-du-rock/"
+
+[[redirects]]
+from = "/equipe/categories/demos/proffeseures-demos/"
+to = "/equipe/categories/demos/professeures-demos/"
+
+[[redirects]]
+from = "/equipe/categories/professeures-cpbm/voix/"
+to = "/equipe/categories/professeures-cpbm/musique-vocale/"
+
+[[redirects]]
+from = "/agenda/2025/journee-portes-ouvertes-2025/2025-05-17-entrez-par-la-haie-d-honneur-en-fanfare-et-tambours/"
+to = "/agenda/2025/journee-portes-ouvertes-2025/entrez-par-la-haie-d-honneur-en-fanfare-et-tambours/"
+
+[[redirects]]
+from = "/formations/categories/disciplines/"
+to = "/lenseignement/formations/categories/disciplines/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-play-loud/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/play-loud/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/quintette-de-mozart-et-de-brahms/"
+to = "/agenda/2025/carlissimo-printemps/quintettes-de-mozart-et-de-brahms/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-03-31-autour-de-lorgue-hors-les-murs/"
+to = "/agenda/2025/carlissimo-printemps/autour-de-lorgue-hors-les-murs/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-atelier-decouverte-electroacoustique/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/atelier-decouverte-electroacoustique/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-deambulations-theatrales/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/deambulations-theatrales/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-chausson-et-ysaye-des-destins-croises/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/chausson-et-ysaye-des-destins-croises/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-26-exposition-de-lorchestre-demos-marseille/"
+to = "/agenda/2024/le-grand-boucan/exposition-de-lorchestre-demos-marseille/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/cantate-pour-un-coeur-bleu-conte-musical/"
+to = "/agenda/2025/carlissimo-printemps/cantate-pour-un-coeur-bleu-conte-musical/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-25-tous-en-chorales/"
+to = "/agenda/2024/le-grand-boucan/tous-en-chorales/"
+
+[[redirects]]
+from = "/organisations/festival-marseille-jazz-des-cinq-continents/"
+to = "/organisations/marseille-jazz-des-cinq-continents-1/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-bibliotheque-1/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-direction-des-etudes-1/service-bibliotheque-1/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo-printemps/louange-pour-11-instruments-et-electronique/"
+to = "/agenda/2025/louange-pour-11-instruments-et-electronique/"
+
+[[redirects]]
+from = "/quenseigne-t-on-au-conservatoire/"
+to = "/lenseignement/quenseigne-t-on-au-conservatoire/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-cocert-de-lorchestre-dharmonie/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/cocert-de-lorchestre-dharmonie/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-manger-un-phoque-de-sophie-merceron/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/manger-un-phoque-de-sophie-merceron/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/2025-04-28-et-bien-dansez-maintenant/"
+to = "/agenda/2025/carlissimo-printemps/et-bien-dansez-maintenant/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-29-deambulation-musicale/"
+to = "/agenda/2024/le-grand-boucan/deambulation-musicale/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-nuits-despagne/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/nuits-despagne/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2024-12-16-autour-du-concerto/"
+to = "/agenda/2024/carlissimo-hiver/autour-du-concerto/"
+
+[[redirects]]
+from = "/formations/categories/instruments-1/"
+to = "/lenseignement/formations/categories/instruments/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-vernissage-de-lexposition-de-yana-rozdobudko/"
+to = "/agenda/2024/le-grand-boucan/vernissage-de-lexposition-de-yana-rozdobudko/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-regie-generale/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/service-regie-generale/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/autour-du-concerto/"
+to = "/agenda/2024/carlissimo-hiver/autour-du-concerto/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-23-le-bolero-de-la-plaine/"
+to = "/agenda/2024/le-grand-boucan/le-bolero-de-la-plaine/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-la-chambre-photooraphique-de-jean-kader/"
+to = "/agenda/2024/le-grand-boucan/la-chambre-photooraphique-de-jean-kader/"
+
+[[redirects]]
+from = "/agenda/2025/soiree-de-cloture-du-grand-boucan-du-conservatoire--campus-art-mediterranee-inseamm-osuny-site/"
+to = "/agenda/2025/soiree-de-cloture-du-grand-boucan-du-conservatoire--www-campusartmediterranee-fr/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/responsable-communication/"
+to = "/equipe/categories/agentes-administratif-cpmb/service-communication-1/responsable-communication/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/le-rossignol-de-lempereur/"
+to = "/agenda/2024/carlissimo-hiver/le-rossignol-de-lempereur/"
+
+[[redirects]]
+from = "/formations/clarinette/"
+to = "/lenseignement/formations/clarinette/"
+
+[[redirects]]
+from = "/formations/categories/instruments/"
+to = "/lenseignement/formations/categories/instruments/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/louange-pour-11-instruments-et-electronique/"
+to = "/agenda/2025/louange-pour-11-instruments-et-electronique/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-29-grand-big-band-de-cloture/"
+to = "/agenda/2024/le-grand-boucan/grand-big-band-de-cloture/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-decouverte-les-regles-du-jeu-de-yann-verbugh/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/decouverte-les-regles-du-jeu-de-yann-verbugh/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-exposition-la-voie-du-david/"
+to = "/agenda/2024/le-grand-boucan/exposition-la-voie-du-david/"
+
+[[redirects]]
+from = "/formations/clarinette/clarinette-non-debutant/"
+to = "/lenseignement/formations/clarinette/clarinette-non-debutant/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-scolarite/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-direction-des-etudes-1/service-scolarite/"
+
+[[redirects]]
+from = "/agenda/2025/les-concerts-de-noel/guitares-au-coin-du-feu/"
+to = "/agenda/2025/les-concerts-de-noel-1/guitares-au-coin-du-feu/"
+
+[[redirects]]
+from = "/agenda/2025/journee-portes-ouvertes-2025/2025-05-17-un-poirier-ma-dit/"
+to = "/agenda/2025/journee-portes-ouvertes-2025/un-poirier-ma-dit/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-27-le-messie-de-haendel/"
+to = "/agenda/2024/le-grand-boucan/le-messie-de-haendel/"
+
+[[redirects]]
+from = "/formations/"
+to = "/lenseignement/formations/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-29-vive-les-vents/"
+to = "/agenda/2024/le-grand-boucan/vive-les-vents/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-administratif-cpmb/service-administratif-et-financier/"
+to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-administratif-et-financier/"
+
+[[redirects]]
+from = "/conservatoire-pierre-barbizet/"
+to = "/ecoles/conservatoire-pierre-barbizet/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2025-01-20-le-rossignol-de-lempereur/"
+to = "/agenda/2024/carlissimo-hiver/le-rossignol-de-lempereur/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-le-bolero-de-la-plaine/"
+to = "/agenda/2024/le-grand-boucan/le-bolero-de-la-plaine/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/les-fables-de-la-fontaine/"
+to = "/agenda/2025/carlissimo-printemps/les-fables-de-la-fontaine/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-rencontre-a-la-croisee-des-souffles/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/rencontre-a-la-croisee-des-souffles/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/schonberg-un-revolutionnaire-viennois/"
+to = "/agenda/2024/carlissimo-hiver/schonberg-un-revolutionnaire-viennois/"
+
+[[redirects]]
+from = "/formations/clarinette/clarinette-adultes/"
+to = "/lenseignement/formations/clarinette/clarinette-adultes/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/"
+to = "/agenda/2024/carlissimo-hiver/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-miscellanees/"
+to = "/agenda/2024/le-grand-boucan/miscellanees/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-ifamm/professeures-ifamm/"
+to = "/equipe/categories/professeures-ifamm/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-loreille-concrete-session-marathon/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/loreille-concrete-session-marathon/"
+
+[[redirects]]
+from = "/equipe/categories/agentes-ifamm/formateurtrices-cfpi/"
+to = "/equipe/categories/formateurtrices-cfpi/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2025-01-27-autour-de-la-harpe/"
+to = "/agenda/2024/carlissimo-hiver/autour-de-la-harpe/"
+
+[[redirects]]
+from = "/agenda/2025/carlissimo/autour-de-lorgue-hors-les-murs/"
+to = "/agenda/2025/carlissimo-printemps/autour-de-lorgue-hors-les-murs/"
+
+[[redirects]]
+from = "/projets/offre-de-formation/choeur-lyrique-adulte/"
+to = "/projets/offre-de-formation/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-nocturne/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/nocturne/"
+
+[[redirects]]
+from = "/actualites/offre-de-formation/choeur-lyrique-adulte/"
+to = "/actualites/offre-de-formation/chant-lyrique/choeur-lyrique-adulte/"
+
+[[redirects]]
+from = "/agenda/2024/le-grand-boucan/2024-06-24-carlissimo/"
+to = "/agenda/2024/le-grand-boucan/carlissimo/"
+
+[[redirects]]
+from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-guitares-classiques-mais-pas-que/"
+to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/guitares-classiques-mais-pas-que/"
+
+[[redirects]]
+from = "/agenda/2024/carlissimo/2025-01-13-quintette-de-mozart-et-de-brahms/"
+to = "/agenda/2024/carlissimo-hiver/quintette-de-mozart-et-de-brahms/"
+
