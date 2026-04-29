@@ -71,6 +71,10 @@ from = "/formations/pratique-vocale/index.html"
 to = "/lenseignement/formations/pratique-vocale/"
 
 [[redirects]]
+from = "/agenda/electroaccoustique/index.html"
+to = "/agenda/par-discipline/electroaccoustique/"
+
+[[redirects]]
 from = "/agenda/2025/carlissimo/carte-blanche-a-valery-arzoumanov/index.html"
 to = "/agenda/2025/carlissimo-printemps/carte-blanche-a-valery-arzoumanov/"
 
@@ -87,8 +91,16 @@ from = "/agenda/2024/le-grand-boucan/2024-06-24-dessins-musiques-dessins/index.h
 to = "/agenda/2024/le-grand-boucan/dessins-musiques-dessins/"
 
 [[redirects]]
+from = "/agenda/hors-les-murs/index.html"
+to = "/agenda/par-type-d-evenement/hors-les-murs/"
+
+[[redirects]]
 from = "/formations/formation-musicale-chant-choral/index.html"
 to = "/lenseignement/formations/formation-musicale-chant-choral/"
+
+[[redirects]]
+from = "/agenda/soiree-dansante/index.html"
+to = "/agenda/par-type-d-evenement/soiree-dansante/"
 
 [[redirects]]
 from = "/agenda/2025/carlissimo/index.html"
@@ -127,6 +139,10 @@ from = "/agenda/2024/carlissimo/2025-02-24-alto-et-piano-en-romantisme/index.htm
 to = "/agenda/2024/carlissimo-hiver/alto-et-piano-en-romantisme/"
 
 [[redirects]]
+from = "/agenda/auditions/index.html"
+to = "/agenda/par-type-d-evenement/auditions/"
+
+[[redirects]]
 from = "/equipe/categories/agentes-administratif-cpmb/service-exploitation-de-site/accueil/index.html"
 to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/accueil/"
 
@@ -155,6 +171,10 @@ from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-
 to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/extrait-de-cyrano-promenade-choregraphique/"
 
 [[redirects]]
+from = "/agenda/carlissimo/index.html"
+to = "/agenda/par-type-de-projet/carlissimo/"
+
+[[redirects]]
 from = "/agenda/2024/carlissimo/alto-et-piano-en-romantisme/index.html"
 to = "/agenda/2024/carlissimo-hiver/alto-et-piano-en-romantisme/"
 
@@ -163,8 +183,16 @@ from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-
 to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/big-band-ojazz-amu-co/"
 
 [[redirects]]
+from = "/agenda/expositions/index.html"
+to = "/agenda/par-type-d-evenement/expositions/"
+
+[[redirects]]
 from = "/agenda/2025/carlissimo/2025-06-16-cantate-pour-un-coeur-bleu-conte-musical/index.html"
 to = "/agenda/2025/carlissimo-printemps/cantate-pour-un-coeur-bleu-conte-musical/"
+
+[[redirects]]
+from = "/agenda/cine-concert/index.html"
+to = "/agenda/par-type-d-evenement/cine-concert/"
 
 [[redirects]]
 from = "/agenda/2024/le-grand-boucan/2024-06-25-jouez-jeunesse/index.html"
@@ -177,6 +205,14 @@ to = "/equipe/categories/demos/professeures-demos/"
 [[redirects]]
 from = "/agenda/2024/le-grand-boucan/2024-06-26-des-minotes-des-cordes-et-du-rock/index.html"
 to = "/agenda/2024/le-grand-boucan/des-minotes-des-cordes-et-du-rock/"
+
+[[redirects]]
+from = "/agenda/jpo/index.html"
+to = "/agenda/par-type-de-projet/jpo/"
+
+[[redirects]]
+from = "/agenda/danse-1/index.html"
+to = "/agenda/par-discipline/danse-1/"
 
 [[redirects]]
 from = "/equipe/categories/demos/proffeseures-demos/index.html"
@@ -215,6 +251,10 @@ from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-
 to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/deambulations-theatrales/"
 
 [[redirects]]
+from = "/agenda/plein-air/index.html"
+to = "/agenda/par-type-d-evenement/plein-air/"
+
+[[redirects]]
 from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-chausson-et-ysaye-des-destins-croises/index.html"
 to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/chausson-et-ysaye-des-destins-croises/"
 
@@ -233,6 +273,10 @@ to = "/agenda/2024/le-grand-boucan/tous-en-chorales/"
 [[redirects]]
 from = "/organisations/festival-marseille-jazz-des-cinq-continents/index.html"
 to = "/organisations/marseille-jazz-des-cinq-continents-1/"
+
+[[redirects]]
+from = "/agenda/conference/index.html"
+to = "/agenda/par-type-d-evenement/conference/"
 
 [[redirects]]
 from = "/equipe/categories/agentes-administratif-cpmb/service-bibliotheque-1/index.html"
@@ -283,8 +327,16 @@ from = "/equipe/categories/agentes-administratif-cpmb/service-regie-generale/ind
 to = "/equipe/categories/agentes-administratif-cpmb/pole-administration-et-ressources-partagees/service-exploitation-de-site/service-regie-generale/"
 
 [[redirects]]
+from = "/agenda/ateliers/index.html"
+to = "/agenda/par-type-d-evenement/ateliers/"
+
+[[redirects]]
 from = "/agenda/2024/carlissimo/autour-du-concerto/index.html"
 to = "/agenda/2024/carlissimo-hiver/autour-du-concerto/"
+
+[[redirects]]
+from = "/agenda/concert-des-profs/index.html"
+to = "/agenda/par-type-d-evenement/concert-des-profs/"
 
 [[redirects]]
 from = "/agenda/2024/le-grand-boucan/2024-06-23-le-bolero-de-la-plaine/index.html"
@@ -315,12 +367,32 @@ from = "/formations/categories/instruments/index.html"
 to = "/lenseignement/formations/categories/instruments/"
 
 [[redirects]]
+from = "/agenda/jeune-public/index.html"
+to = "/agenda/par-type-d-evenement/jeune-public/"
+
+[[redirects]]
+from = "/agenda/musique/index.html"
+to = "/agenda/par-discipline/musique/"
+
+[[redirects]]
 from = "/agenda/2025/carlissimo/louange-pour-11-instruments-et-electronique/index.html"
 to = "/agenda/2025/louange-pour-11-instruments-et-electronique/"
 
 [[redirects]]
+from = "/agenda/conte-musical/index.html"
+to = "/agenda/par-type-d-evenement/conte-musical/"
+
+[[redirects]]
+from = "/agenda/journees-europeennes-du-patrimoine/index.html"
+to = "/agenda/par-type-de-projet/journees-europeennes-du-patrimoine/"
+
+[[redirects]]
 from = "/agenda/2024/le-grand-boucan/2024-06-29-grand-big-band-de-cloture/index.html"
 to = "/agenda/2024/le-grand-boucan/grand-big-band-de-cloture/"
+
+[[redirects]]
+from = "/agenda/fanfares/index.html"
+to = "/agenda/par-discipline/fanfares/"
 
 [[redirects]]
 from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-decouverte-les-regles-du-jeu-de-yann-verbugh/index.html"
@@ -333,6 +405,10 @@ to = "/agenda/2024/le-grand-boucan/exposition-la-voie-du-david/"
 [[redirects]]
 from = "/formations/clarinette/clarinette-non-debutant/index.html"
 to = "/lenseignement/formations/clarinette/clarinette-non-debutant/"
+
+[[redirects]]
+from = "/agenda/concerts/index.html"
+to = "/agenda/par-type-d-evenement/concerts/"
 
 [[redirects]]
 from = "/equipe/categories/agentes-administratif-cpmb/service-scolarite/index.html"
@@ -371,6 +447,18 @@ from = "/agenda/2024/carlissimo/2025-01-20-le-rossignol-de-lempereur/index.html"
 to = "/agenda/2024/carlissimo-hiver/le-rossignol-de-lempereur/"
 
 [[redirects]]
+from = "/agenda/piano-1/index.html"
+to = "/agenda/par-discipline/piano-1/"
+
+[[redirects]]
+from = "/agenda/master-class/index.html"
+to = "/agenda/par-type-d-evenement/master-class/"
+
+[[redirects]]
+from = "/agenda/composition-pour-limage/index.html"
+to = "/agenda/par-discipline/composition-pour-limage/"
+
+[[redirects]]
 from = "/agenda/2024/le-grand-boucan/2024-06-24-le-bolero-de-la-plaine/index.html"
 to = "/agenda/2024/le-grand-boucan/le-bolero-de-la-plaine/"
 
@@ -389,6 +477,10 @@ to = "/agenda/2024/carlissimo-hiver/schonberg-un-revolutionnaire-viennois/"
 [[redirects]]
 from = "/formations/clarinette/clarinette-adultes/index.html"
 to = "/lenseignement/formations/clarinette/clarinette-adultes/"
+
+[[redirects]]
+from = "/agenda/theatre-1/index.html"
+to = "/agenda/par-discipline/theatre-1/"
 
 [[redirects]]
 from = "/agenda/2024/carlissimo/index.html"
@@ -411,8 +503,16 @@ from = "/equipe/categories/agentes-ifamm/formateurtrices-cfpi/index.html"
 to = "/equipe/categories/formateurtrices-cfpi/"
 
 [[redirects]]
+from = "/agenda/orchestres/index.html"
+to = "/agenda/par-discipline/orchestres/"
+
+[[redirects]]
 from = "/agenda/2024/carlissimo/2025-01-27-autour-de-la-harpe/index.html"
 to = "/agenda/2024/carlissimo-hiver/autour-de-la-harpe/"
+
+[[redirects]]
+from = "/agenda/jazz-1/index.html"
+to = "/agenda/par-discipline/jazz-1/"
 
 [[redirects]]
 from = "/agenda/2025/carlissimo/autour-de-lorgue-hors-les-murs/index.html"
@@ -425,6 +525,10 @@ to = "/projets/offre-de-formation/chant-lyrique/choeur-lyrique-adulte/"
 [[redirects]]
 from = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/2025-01-31-nocturne/index.html"
 to = "/agenda/2025/la-nuit-du-conservatoire-pierre-barbizet-de-marseille/nocturne/"
+
+[[redirects]]
+from = "/agenda/festival/index.html"
+to = "/agenda/par-type-d-evenement/festival/"
 
 [[redirects]]
 from = "/actualites/offre-de-formation/choeur-lyrique-adulte/index.html"
