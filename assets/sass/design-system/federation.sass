@@ -1,5 +1,4 @@
-.event,
-.post
+.event
     &.is-federated
         background: var(--season-end-color)
         [class$="-federation"]
@@ -19,6 +18,13 @@
                 padding-bottom: var(--grid-gutter)
         .media
             margin-bottom: 0
+
+.post
+    &.is-federated
+        .post-federation
+            background: var(--season-end-color)
+            display: table
+            padding: space(2)
 
 .events, .exhibitions
     &--list

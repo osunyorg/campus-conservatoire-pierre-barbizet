@@ -2,6 +2,7 @@ theme:
   - osuny-suggestions
   - osuny-campus-art-mediterrannee-footer
   - osuny
+  - osuny-plugin-pagedjs
 _merge: deep
 params:
   debug:
