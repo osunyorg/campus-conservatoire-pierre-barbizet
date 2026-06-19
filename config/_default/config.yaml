@@ -46,9 +46,9 @@ params:
         reading_time: false
         signature: false
         updated_at: false
-      taxonomies:
+      meta:
         position: hero
-        show_name: false
+        with_labels: false
   programs:
     index:
       layout: grid
