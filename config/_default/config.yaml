@@ -36,7 +36,7 @@ params:
     index:
       layout: grid
     single:
-      taxonomies:
+      meta:
         position: none
   posts:
     single:
