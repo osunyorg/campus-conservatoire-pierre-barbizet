@@ -48,7 +48,8 @@ params:
         updated_at: false
       meta:
         position: hero
-        with_labels: false
+        options:
+          with_labels: false
   programs:
     index:
       layout: grid
