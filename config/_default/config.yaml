@@ -36,7 +36,7 @@ params:
     index:
       layout: grid
     single:
-      taxonomies:
+      meta:
         position: none
   posts:
     single:
@@ -46,9 +46,10 @@ params:
         reading_time: false
         signature: false
         updated_at: false
-      taxonomies:
+      meta:
         position: hero
-        show_name: false
+        options:
+          with_labels: false
   programs:
     index:
       layout: grid
