@@ -367,6 +367,10 @@ from = "/formations/categories/instruments/index.html"
 to = "/lenseignement/formations/categories/instruments/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/regt-int-cpbmpdf/"
+
+[[redirects]]
 from = "/agenda/jeune-public/index.html"
 to = "/agenda/par-type-d-evenement/jeune-public/"
 
